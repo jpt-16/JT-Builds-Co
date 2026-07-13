@@ -676,6 +676,53 @@ a.brandmark:hover { opacity: .72; }
   margin-right: auto;
 }
 
+.btn:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* ---------- Dashboard result panel ---------- */
+
+.dashboard-result {
+  margin-top: 44px;
+  padding: 24px 28px;
+  border: 1px solid var(--muted);
+  border-style: dashed;
+}
+
+.dashboard-result[data-sent] {
+  border-color: var(--bronze);
+  border-style: solid;
+}
+
+.dashboard-result-tag {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .24em;
+  color: var(--bronze);
+}
+
+.dashboard-result p {
+  margin: 12px 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.dashboard-result pre {
+  margin: 16px 0 0;
+  padding: 16px;
+  border-top: 1px solid var(--hairline);
+  font-family: var(--sans);
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
 /* ---------- CTA band ---------- */
 
 .cta-band {

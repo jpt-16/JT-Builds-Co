@@ -12,6 +12,7 @@ Multi-page static site sharing one stylesheet:
 - `services.html` — full seven-service grid with expanded descriptions
 - `pricing.html` — the promise, terms table, and FAQ
 - `contact.html` — the consultation form
+- `dashboard.html` + `api/send-review-request.js` + `js/dashboard.js` — internal review-request texting tool, see below
 - `css/style.css` — full stylesheet with design tokens as CSS custom properties, responsive at 960px and 600px breakpoints
 - `assets/logo-icon.png` — the brand mark (browser window + cursor), cropped with a transparent background from the official export; used in the masthead and footer
 - `assets/favicon.png` — a compact favicon built from the same mark, with its own rounded dark badge so it reads in any browser chrome
@@ -36,3 +37,9 @@ Fonts load from Google Fonts (Marcellus, Karla).
 ## Contact form
 
 The consultation form posts to [FormSubmit](https://formsubmit.co/) addressed to the business email — no backend needed. The first submission after deployment triggers a one-time activation email from FormSubmit; confirm it and all later submissions arrive in the inbox. To switch providers (Formspree, Netlify Forms, a custom endpoint), change the form's `action` attribute in `index.html`.
+
+## Review request tool
+
+`dashboard.html` (not linked from the public nav) and `api/send-review-request.js` are a small internal tool for sending an automated "please leave a review" text once a job wraps — the automation behind the Reviews service described on the Services and Pricing pages. It's the one part of this repo that isn't purely static: the `/api` function needs a serverless host to run.
+
+Without Twilio credentials configured, it runs in dry run — the form works and shows you the exact message that would be sent, but nothing goes out. `python3 -m http.server` still works for browsing every other page, but won't execute the API function; local testing of the send flow needs the Vercel CLI (`vercel dev`). See [SETUP.md](SETUP.md) for deployment, environment variables, Twilio/carrier verification, and compliance notes before sending to real customers.

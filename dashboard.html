@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Review Request — JT Builds Co.</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Karla:wght@300;400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <a href="index.html" class="brandmark"><img src="assets/logo-icon.png" alt="JT Builds Co." width="64" height="54"></a>
+  <div class="masthead-jt">JT</div>
+  <div class="masthead-title">BUILDS CO.</div>
+  <div class="masthead-sub">INTERNAL — REVIEW REQUEST TOOL</div>
+</header>
+
+<article class="legal">
+  <h1>Send a Review Request</h1>
+  <span class="legal-updated">SENDS ONCE A JOB IS FINISHED</span>
+
+  <p>Enter the customer's name and phone number to send the review-request text. Until Twilio is connected on the server, every send runs in dry run — you'll see the exact message that would go out, and nothing is actually sent.</p>
+
+  <form id="review-form" class="consult-form" autocomplete="off">
+    <div class="field">
+      <label for="f-key">ACCESS KEY</label>
+      <input type="password" id="f-key" name="accessKey" required autocomplete="off">
+    </div>
+
+    <div class="form-grid" style="margin-top: 44px">
+      <div class="field">
+        <label for="f-name">CUSTOMER NAME</label>
+        <input type="text" id="f-name" name="customerName" required autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="f-phone">CUSTOMER PHONE</label>
+        <input type="tel" id="f-phone" name="phone" required autocomplete="off" placeholder="(555) 555-5555">
+      </div>
+    </div>
+
+    <div class="form-grid" style="margin-top: 44px">
+      <div class="field">
+        <label for="f-business">BUSINESS NAME <span class="optional">— OPTIONAL</span></label>
+        <input type="text" id="f-business" name="businessName" autocomplete="off" placeholder="Uses BUSINESS_NAME on the server if left blank">
+      </div>
+      <div class="field">
+        <label for="f-url">REVIEW URL <span class="optional">— OPTIONAL</span></label>
+        <input type="url" id="f-url" name="reviewUrl" autocomplete="off" placeholder="Uses GOOGLE_REVIEW_URL on the server if left blank">
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-dark">SEND REVIEW REQUEST</button>
+  </form>
+
+  <div id="result" class="dashboard-result" hidden>
+    <span id="result-tag" class="dashboard-result-tag"></span>
+    <p id="result-note"></p>
+    <pre id="result-message"></pre>
+  </div>
+</article>
+
+<script src="js/dashboard.js" defer></script>
+</body>
+</html>
