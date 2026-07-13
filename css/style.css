@@ -367,6 +367,10 @@ a.brandmark:hover { opacity: .72; }
   box-shadow: var(--shadow-md);
 }
 
+/* Fills the remainder of the grid's final row when the card count
+   doesn't divide evenly into the columns. */
+.service-wide { grid-column: 1 / -1; }
+
 .service h3 {
   font-size: 21px;
   letter-spacing: -.005em;
