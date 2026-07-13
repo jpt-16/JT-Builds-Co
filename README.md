@@ -13,8 +13,9 @@ Multi-page static site sharing one stylesheet:
 - `pricing.html` — the promise, terms table, and FAQ
 - `contact.html` — the consultation form
 - `css/style.css` — full stylesheet with design tokens as CSS custom properties, responsive at 960px and 600px breakpoints
-- `assets/logo-mark.svg` — the brand mark (browser window + cursor), used in the masthead and footer
-- `assets/favicon.svg` — a compact favicon built from the same mark, with its own dark background so it reads in any browser chrome
+- `assets/logo-icon.png` — the brand mark (browser window + cursor), cropped with a transparent background from the official export; used in the masthead and footer
+- `assets/favicon.png` — a compact favicon built from the same mark, with its own rounded dark badge so it reads in any browser chrome
+- `assets/logo-source-reversed.png` — the original full lockup (icon + "JT" + "BUILDS CO." wordmark) exported from the Claude Design logo project; kept as the source of truth if the mark needs re-cropping later
 
 Every page shares the same top bar, masthead, nav (with the current page highlighted via `aria-current="page"`), and a sitewide footer with sitemap links.
 
