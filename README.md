@@ -2,7 +2,7 @@
 
 Website for JT Builds Co. — a web & brand studio for main-street business, based in Foxboro, Massachusetts.
 
-Built from the "Atelier" direction of the [JT Builds Co. landing page designs](https://claude.ai/design/p/5626d654-1c99-4f4e-a0a5-2a4d294a0f7d) project: ivory editorial layout, Marcellus + Karla type, bronze accents, hard hairline rules.
+Built from the "Atelier" direction of the [JT Builds Co. landing page designs](https://claude.ai/design/p/5626d654-1c99-4f4e-a0a5-2a4d294a0f7d) project, since reversed into a dark theme ("Atelier Noir") to match the brand mark: a near-black ground, Marcellus + Karla + IBM Plex Mono type, and a rust-orange accent.
 
 ## Structure
 
@@ -13,8 +13,14 @@ Multi-page static site sharing one stylesheet:
 - `pricing.html` — the promise, terms table, and FAQ
 - `contact.html` — the consultation form
 - `css/style.css` — full stylesheet with design tokens as CSS custom properties, responsive at 960px and 600px breakpoints
+- `assets/logo-mark.svg` — the brand mark (browser window + cursor), used in the masthead and footer
+- `assets/favicon.svg` — a compact favicon built from the same mark, with its own dark background so it reads in any browser chrome
 
 Every page shares the same top bar, masthead, nav (with the current page highlighted via `aria-current="page"`), and a sitewide footer with sitemap links.
+
+## Theme
+
+The whole site runs on one dark ("reversed") theme rather than a light/dark toggle. The color tokens in `css/style.css` are intentionally still named `--ivory` and `--ink` even though `--ivory` now holds the dark value and `--ink` the light one — nearly every rule in the stylesheet was written against those two tokens, so keeping the names stable let the whole design invert from a single edit in `:root`. `--bronze`/`--bronze-light` hold the two rust-orange tints (a brighter one for accents on the dark page, a deeper one for text inside the light "flipped" panels like the Promise block).
 
 ## Development
 

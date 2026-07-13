@@ -1,15 +1,18 @@
-/* JT Builds Co. — "Atelier" design system
-   Ivory editorial · Marcellus + Karla · bronze accents · hard hairline rules */
+/* JT Builds Co. — "Atelier Noir" design system
+   Reversed editorial · Marcellus + Karla + IBM Plex Mono · rust accent · hard hairline rules
+   Token names are unchanged from the light theme on purpose — --ivory now holds the
+   dark value and --ink the light one, so every rule below inverts automatically. */
 
 :root {
-  --ivory: #F5F1E8;
-  --ink: #2B2218;
-  --bronze: #8C6A3F;
-  --bronze-light: #C9A671;
-  --muted: #6E6152;
-  --hairline: #D8CFBC;
+  --ivory: #211A12;
+  --ink: #F5F1E8;
+  --bronze: #C97A46;
+  --bronze-light: #9C4E24;
+  --muted: #B6AB9A;
+  --hairline: rgba(245, 241, 232, .16);
   --serif: 'Marcellus', Georgia, serif;
   --sans: 'Karla', system-ui, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, monospace;
 }
 
 * { box-sizing: border-box; }
@@ -53,49 +56,39 @@ h1, h2, h3 {
   border-bottom: 1px solid var(--ink);
 }
 
-.monogram {
-  width: 74px;
-  height: 74px;
-  border: 1px solid var(--ink);
-  border-radius: 50%;
-  margin: 0 auto 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  transition: border-color .25s, color .25s;
+.brandmark {
+  display: inline-block;
+  margin: 0 auto 22px;
+  line-height: 0;
+  transition: opacity .25s;
 }
 
-a.monogram:hover {
-  border-color: var(--bronze);
-  color: var(--bronze);
-}
+a.brandmark:hover { opacity: .72; }
 
-.monogram-sm {
-  width: 48px;
-  height: 48px;
-  margin: 0 0 16px;
-}
+.brandmark img { display: block; width: 64px; height: 64px; }
 
-.monogram-sm span { font-size: 17px; }
+.brandmark-sm { margin: 0 0 16px; }
 
-.monogram span {
+.brandmark-sm img { width: 42px; height: 42px; }
+
+.masthead-jt {
   font-family: var(--serif);
-  font-size: 26px;
-  letter-spacing: .08em;
-  padding-left: .08em;
+  font-size: clamp(64px, 11vw, 112px);
+  line-height: .88;
+  letter-spacing: .01em;
 }
 
 .masthead-title {
-  font-family: var(--serif);
-  font-size: clamp(34px, 6vw, 54px);
-  letter-spacing: .14em;
-  line-height: 1;
-  padding-left: .14em;
+  font-family: var(--mono);
+  font-weight: 500;
+  font-size: clamp(14px, 2vw, 18px);
+  letter-spacing: .5em;
+  padding-left: .5em;
+  margin-top: 14px;
 }
 
 .masthead-sub {
-  margin-top: 16px;
+  margin-top: 18px;
   font-size: 11.5px;
   letter-spacing: .3em;
   color: var(--bronze);
@@ -442,7 +435,9 @@ a.monogram:hover {
   padding: 100px 64px 90px;
 }
 
-.closing .monogram { margin-bottom: 28px; }
+.closing .brandmark { margin-bottom: 28px; }
+
+.brandmark-lg img { width: 84px; height: 84px; }
 
 .closing h2 {
   font-size: clamp(34px, 5vw, 50px);
