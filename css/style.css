@@ -398,7 +398,139 @@ h1, h2, h3 {
   line-height: 1.2;
 }
 
-.closing .btn { margin-top: 34px; }
+.closing-sub {
+  margin: 18px auto 0;
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: var(--muted);
+  font-weight: 300;
+  max-width: 460px;
+}
+
+/* ---------- Consultation form ---------- */
+
+.consult-form {
+  max-width: 720px;
+  margin: 56px auto 0;
+  text-align: left;
+}
+
+.honey {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px 56px;
+}
+
+.field { margin: 0; }
+
+.field label,
+.field legend {
+  display: block;
+  font-size: 11px;
+  letter-spacing: .24em;
+  color: var(--bronze);
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.optional { color: var(--muted); }
+
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="tel"],
+.field textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--ink);
+  border-radius: 0;
+  padding: 10px 2px;
+  font-family: var(--sans);
+  font-size: 16px;
+  color: var(--ink);
+  transition: border-color .25s;
+}
+
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  border-bottom-color: var(--bronze);
+}
+
+.field textarea {
+  resize: vertical;
+  line-height: 1.7;
+}
+
+.field ::placeholder {
+  color: var(--muted);
+  opacity: .6;
+  font-weight: 300;
+}
+
+.field-services {
+  border: none;
+  margin: 44px 0 0;
+  padding: 0;
+}
+
+.consult-form > .field {
+  margin-top: 44px;
+}
+
+.svc-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.svc-pill input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.svc-pill span {
+  display: inline-block;
+  border: 1px solid var(--ink);
+  padding: 11px 22px;
+  font-size: 12px;
+  letter-spacing: .16em;
+  cursor: pointer;
+  user-select: none;
+  transition: background .2s, color .2s, border-color .2s;
+}
+
+.svc-pill span:hover { border-color: var(--bronze); color: var(--bronze); }
+
+.svc-pill input:checked + span {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--ivory);
+}
+
+.svc-pill input:focus-visible + span {
+  outline: 2px solid var(--bronze);
+  outline-offset: 2px;
+}
+
+.consult-form .btn {
+  margin-top: 48px;
+  border: none;
+  cursor: pointer;
+  font-family: var(--sans);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .closing footer {
   margin-top: 64px;
@@ -467,4 +599,8 @@ h1, h2, h3 {
   .section-head { gap: 14px; margin-bottom: 36px; }
 
   .closing { padding: 72px 24px 64px; }
+
+  .form-grid { grid-template-columns: 1fr; gap: 32px; }
+
+  .consult-form { margin-top: 44px; }
 }

@@ -109,7 +109,52 @@
 <section class="closing" id="contact">
   <div class="monogram"><span>JT</span></div>
   <h2>It begins with one conversation.</h2>
-  <a href="mailto:jptwohig16@gmail.com?subject=Consultation%20Request%20—%20JT%20Builds%20Co." class="btn btn-dark">REQUEST A CONSULTATION</a>
+  <p class="closing-sub">Tell me about your business, and I'll reply personally within one business day.</p>
+
+  <form class="consult-form" action="https://formsubmit.co/jptwohig16@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Consultation Request — JT Builds Co.">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+    <div class="form-grid">
+      <div class="field">
+        <label for="f-name">YOUR NAME</label>
+        <input type="text" id="f-name" name="name" required autocomplete="name">
+      </div>
+      <div class="field">
+        <label for="f-business">BUSINESS NAME</label>
+        <input type="text" id="f-business" name="business" autocomplete="organization">
+      </div>
+      <div class="field">
+        <label for="f-email">EMAIL</label>
+        <input type="email" id="f-email" name="email" required autocomplete="email">
+      </div>
+      <div class="field">
+        <label for="f-phone">PHONE <span class="optional">— OPTIONAL</span></label>
+        <input type="tel" id="f-phone" name="phone" autocomplete="tel">
+      </div>
+    </div>
+
+    <fieldset class="field field-services">
+      <legend>SERVICES OF INTEREST</legend>
+      <div class="svc-pills">
+        <label class="svc-pill"><input type="checkbox" name="services" value="Website"><span>Website</span></label>
+        <label class="svc-pill"><input type="checkbox" name="services" value="Identity & Logo"><span>Identity &amp; Logo</span></label>
+        <label class="svc-pill"><input type="checkbox" name="services" value="Local Search"><span>Local Search</span></label>
+        <label class="svc-pill"><input type="checkbox" name="services" value="Booking"><span>Booking</span></label>
+        <label class="svc-pill"><input type="checkbox" name="services" value="Response"><span>Response</span></label>
+        <label class="svc-pill"><input type="checkbox" name="services" value="Care"><span>Care</span></label>
+      </div>
+    </fieldset>
+
+    <div class="field">
+      <label for="f-message">A PERSONAL MESSAGE <span class="optional">— IF NEEDED</span></label>
+      <textarea id="f-message" name="message" rows="5" placeholder="What you do, where you are, and what you'd like to build."></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-dark">REQUEST A CONSULTATION</button>
+  </form>
+
   <footer>JT BUILDS CO. — FOXBORO, MASSACHUSETTS — MMXXVI</footer>
 </section>
 

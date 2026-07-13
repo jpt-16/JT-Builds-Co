@@ -6,7 +6,7 @@ Built from the "Atelier" direction of the [JT Builds Co. landing page designs](h
 
 ## Structure
 
-- `index.html` — single-page site (masthead, hero, services, promise, terms, FAQ, contact)
+- `index.html` — single-page site (masthead, hero, services, promise, terms, FAQ, contact form)
 - `css/style.css` — full stylesheet with design tokens as CSS custom properties, responsive at 960px and 600px breakpoints
 
 ## Development
@@ -18,3 +18,7 @@ python3 -m http.server 8000
 ```
 
 Fonts load from Google Fonts (Marcellus, Karla).
+
+## Contact form
+
+The consultation form posts to [FormSubmit](https://formsubmit.co/) addressed to the business email — no backend needed. The first submission after deployment triggers a one-time activation email from FormSubmit; confirm it and all later submissions arrive in the inbox. To switch providers (Formspree, Netlify Forms, a custom endpoint), change the form's `action` attribute in `index.html`.
