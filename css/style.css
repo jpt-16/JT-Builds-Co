@@ -62,7 +62,22 @@ h1, h2, h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  transition: border-color .25s, color .25s;
 }
+
+a.monogram:hover {
+  border-color: var(--bronze);
+  color: var(--bronze);
+}
+
+.monogram-sm {
+  width: 48px;
+  height: 48px;
+  margin: 0 0 16px;
+}
+
+.monogram-sm span { font-size: 17px; }
 
 .monogram span {
   font-family: var(--serif);
@@ -110,6 +125,12 @@ h1, h2, h3 {
 }
 
 .nav a:hover { color: var(--bronze); }
+
+.nav a[aria-current="page"]:not(.nav-cta) {
+  color: var(--bronze);
+  border-bottom: 1px solid var(--bronze);
+  padding-bottom: 2px;
+}
 
 .nav-cta {
   color: var(--bronze);
@@ -179,6 +200,31 @@ h1, h2, h3 {
   letter-spacing: .24em;
   margin-top: 6px;
   color: var(--muted);
+}
+
+/* ---------- Page header (Services / Pricing) ---------- */
+
+.page-header {
+  padding: 88px 64px 64px;
+  border-bottom: 1px solid var(--ink);
+  max-width: 760px;
+}
+
+.page-header .numeral { display: block; margin-bottom: 20px; }
+
+.page-header h1 {
+  font-size: clamp(36px, 5vw, 52px);
+  line-height: 1.15;
+  text-wrap: pretty;
+}
+
+.page-header p {
+  margin: 22px 0 0;
+  font-size: 16.5px;
+  line-height: 1.75;
+  color: var(--muted);
+  font-weight: 300;
+  text-wrap: pretty;
 }
 
 /* ---------- Buttons & links ---------- */
@@ -265,6 +311,11 @@ h1, h2, h3 {
   font-size: 14.5px;
   line-height: 1.7;
   color: var(--muted);
+}
+
+.services-more {
+  display: inline-block;
+  margin-top: 56px;
 }
 
 /* ---------- Promise / Terms split ---------- */
@@ -532,10 +583,72 @@ h1, h2, h3 {
   margin-right: auto;
 }
 
-.closing footer {
-  margin-top: 64px;
+/* ---------- CTA band ---------- */
+
+.cta-band {
+  text-align: center;
+  padding: 96px 64px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.cta-band h2 {
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+.cta-band-sub {
+  margin: 18px auto 0;
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: var(--muted);
+  font-weight: 300;
+  max-width: 480px;
+}
+
+.cta-band .btn { margin-top: 36px; }
+
+/* ---------- Site footer ---------- */
+
+.site-footer {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 48px;
+  padding: 72px 64px 40px;
+}
+
+.site-footer-brand p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 340px;
+  font-weight: 300;
+}
+
+.site-footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 13.5px;
+}
+
+.site-footer-links a { text-decoration: none; transition: color .25s; }
+.site-footer-links a:hover { color: var(--bronze); }
+.site-footer-links span { color: var(--muted); }
+
+.site-footer-heading {
   font-size: 11px;
-  letter-spacing: .26em;
+  letter-spacing: .24em;
+  color: var(--bronze);
+  margin-bottom: 4px;
+}
+
+.site-footer-bottom {
+  grid-column: 1 / -1;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--hairline);
+  font-size: 11px;
+  letter-spacing: .2em;
   color: var(--bronze);
 }
 
@@ -573,9 +686,13 @@ h1, h2, h3 {
     border-bottom: 1px solid var(--ink);
   }
 
-  .services, .faq, .promise-panel, .terms-panel { padding: 64px 40px; }
+  .services, .faq, .promise-panel, .terms-panel, .page-header, .cta-band { padding-left: 40px; padding-right: 40px; }
 
   .faq-grid { grid-template-columns: 1fr; }
+
+  .site-footer { grid-template-columns: 1fr 1fr; padding: 64px 40px 36px; }
+
+  .site-footer-brand { grid-column: 1 / -1; }
 }
 
 @media (max-width: 600px) {
@@ -590,11 +707,13 @@ h1, h2, h3 {
 
   .nav { gap: 14px 28px; padding: 14px 24px; }
 
-  .hero-copy, .services, .faq, .promise-panel, .terms-panel { padding: 52px 24px; }
+  .hero-copy, .services, .faq, .promise-panel, .terms-panel, .page-header, .cta-band { padding: 52px 24px; }
 
   .stat { padding: 28px 24px; }
 
   .services-grid { grid-template-columns: 1fr; gap: 40px; }
+
+  .services-more { margin-top: 44px; }
 
   .section-head { gap: 14px; margin-bottom: 36px; }
 
@@ -603,4 +722,6 @@ h1, h2, h3 {
   .form-grid { grid-template-columns: 1fr; gap: 32px; }
 
   .consult-form { margin-top: 44px; }
+
+  .site-footer { grid-template-columns: 1fr; padding: 52px 24px 32px; gap: 36px; }
 }

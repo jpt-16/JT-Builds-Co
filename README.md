@@ -6,8 +6,15 @@ Built from the "Atelier" direction of the [JT Builds Co. landing page designs](h
 
 ## Structure
 
-- `index.html` — single-page site (masthead, hero, services, promise, terms, FAQ, contact form)
+Multi-page static site sharing one stylesheet:
+
+- `index.html` — Home: masthead, hero with stats, services teaser, promise/terms teaser, CTA band
+- `services.html` — full six-service grid with expanded descriptions
+- `pricing.html` — the promise, terms table, and FAQ
+- `contact.html` — the consultation form
 - `css/style.css` — full stylesheet with design tokens as CSS custom properties, responsive at 960px and 600px breakpoints
+
+Every page shares the same top bar, masthead, nav (with the current page highlighted via `aria-current="page"`), and a sitewide footer with sitemap links.
 
 ## Development
 
