@@ -142,11 +142,11 @@ h1, h2, h3 {
 
 a.brandmark:hover { opacity: .72; }
 
-.brandmark img { display: block; width: 64px; height: 54px; }
+.brandmark img { display: block; width: 54px; height: 54px; }
 
 .brandmark-sm { margin: 0 0 16px; }
 
-.brandmark-sm img { width: 42px; height: 36px; }
+.brandmark-sm img { width: 36px; height: 36px; }
 
 .masthead-jt {
   font-family: var(--font-heading);
@@ -208,7 +208,7 @@ a.brandmark:hover { opacity: .72; }
 
 .nav-brand:hover { opacity: .72; }
 
-.nav-brand img { display: block; height: 30px; width: auto; }
+.nav-brand img { display: block; height: 38px; width: auto; }
 
 .nav a {
   text-decoration: none;
@@ -672,7 +672,7 @@ a.brandmark:hover { opacity: .72; }
 
 .closing .brandmark { margin-bottom: 28px; }
 
-.brandmark-lg img { width: 84px; height: 71px; }
+.brandmark-lg img { width: 71px; height: 71px; }
 
 .closing h2 {
   font-size: clamp(36px, 5.6vw, 56px);
