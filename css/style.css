@@ -311,7 +311,20 @@ a.brandmark:hover { opacity: .72; }
   position: relative;
 }
 
+.hero-graphic {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--color-accent-500);
+  opacity: .16;
+  pointer-events: none;
+  z-index: 0;
+}
+
 .stat {
+  position: relative;
+  z-index: 1;
   flex: 1;
   padding: 46px 64px;
   border-bottom: 1px solid var(--color-divider);
@@ -487,6 +500,16 @@ a.brandmark:hover { opacity: .72; }
 /* Fills the remainder of the grid's final row when the card count
    doesn't divide evenly into the columns. */
 .service-wide { grid-column: 1 / -1; }
+
+.service-icon {
+  display: block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 18px;
+  color: var(--color-accent-500);
+}
+
+.service-icon svg { display: block; width: 100%; height: 100%; }
 
 .service h3 {
   font-size: 21px;
@@ -666,9 +689,26 @@ a.brandmark:hover { opacity: .72; }
 /* ---------- Closing ---------- */
 
 .closing {
+  position: relative;
   text-align: center;
   padding: 100px 64px 90px;
+  overflow: hidden;
 }
+
+.closing::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 900px;
+  height: 900px;
+  transform: translate(-50%, -50%);
+  background: rgba(145, 132, 217, .12);
+  background: radial-gradient(circle, color-mix(in srgb, var(--color-accent-500) 12%, transparent), transparent 65%);
+  pointer-events: none;
+}
+
+.closing > * { position: relative; }
 
 .closing .brandmark { margin-bottom: 28px; }
 
@@ -874,6 +914,20 @@ a.brandmark:hover { opacity: .72; }
   position: relative;
   text-align: center;
   padding: 96px 64px;
+  overflow: hidden;
+}
+
+.cta-band::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 760px;
+  height: 760px;
+  transform: translate(-50%, -50%);
+  background: rgba(145, 132, 217, .1);
+  background: radial-gradient(circle, color-mix(in srgb, var(--color-accent-500) 10%, transparent), transparent 65%);
+  pointer-events: none;
 }
 
 .cta-band::after {
@@ -884,6 +938,8 @@ a.brandmark:hover { opacity: .72; }
   background: var(--fade-h);
   pointer-events: none;
 }
+
+.cta-band > * { position: relative; }
 
 .cta-band h2 {
   font-size: clamp(30px, 4.4vw, 44px);
