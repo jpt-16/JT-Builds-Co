@@ -986,6 +986,9 @@ a.brandmark:hover { opacity: .72; }
 .site-footer-links a:hover { color: var(--color-accent-500); }
 .site-footer-links span { color: var(--color-muted); }
 
+.footer-social { display: inline-flex; align-items: center; gap: 8px; }
+.footer-social svg { width: 16px; height: 16px; flex-shrink: 0; }
+
 .site-footer-heading {
   font-size: 11px;
   font-weight: 500;
