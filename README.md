@@ -8,12 +8,16 @@ Originally built from the "Atelier" direction of the [JT Builds Co. landing page
 
 Multi-page static site sharing one stylesheet:
 
-- `index.html` — Home: masthead, hero with stats, services teaser, promise/terms teaser, CTA band
-- `services.html` — full seven-service grid with expanded descriptions
-- `pricing.html` — the promise, terms table, and FAQ
+- `index.html` — Home: hero with stats, services teaser, selected-work teaser, five-step process, promise/terms split, why-JT-Builds grid, Instagram band, CTA
+- `work.html` — Selected Work portfolio. See "Adding a project" below
+- `services.html` — the seven services, plus a "What You Get" deliverables list
+- `pricing.html` — setup fee vs. Care plan, how quoting works, and the FAQ
+- `about.html` — the mission and why the studio exists
 - `contact.html` — the consultation form
 - `dashboard.html` + `api/send-review-request.js` + `js/dashboard.js` — internal review-request texting tool, see below
 - `css/style.css` — full stylesheet with design tokens as CSS custom properties, responsive at 960px and 600px breakpoints
+- `assets/work/` — project screenshots for the portfolio
+- `assets/og-image.png` — the 1200×630 social preview referenced by every page's Open Graph tags
 - `assets/logo-icon.png` — the "JT" icon mark alone (accent-outlined square, transparent background), cropped from the official lockup export; used in the masthead, footer, and closing brandmarks
 - `assets/logo-lockup.png` — the full horizontal lockup (icon + "BUILDS CO. / WEB & BRAND STUDIO" wordmark), transparent background tuned to sit on the dark page; used in the nav bar
 - `assets/favicon.png` — built from the circular badge export (icon + wordmark on a dark ground), resized for browser chrome
@@ -24,6 +28,22 @@ Every page shares the same top bar, masthead, nav (with the current page highlig
 ## Theme
 
 The whole site runs on one dark theme rather than a light/dark toggle. `css/style.css` defines full neutral and accent tonal ramps (`--color-neutral-100..900`, `--color-accent-100..900`) as CSS custom properties, plus a compact spacing scale (`--space-1..8`) and radius/shadow tokens. Full-bleed section dividers (topbar, masthead, nav, hero, etc.) fade to transparent at their ends via a gradient background layered on a pseudo-element, rather than a hard `border`; smaller list-internal dividers (FAQ rows, pricing rows) stay solid. Buttons are accent-outlined on a transparent fill, not solid-filled.
+
+## Adding a project to Selected Work
+
+`work.html` holds a commented-out `<article class="work-card">` template just below the
+live cards. Copy it, fill in the business name, industry, what was built, and the live
+URL, and drop a screenshot into `assets/work/`.
+
+Screenshots are shown in a 16:10 slot. Around 1120×700 is plenty — export as JPEG and
+keep it under ~80 KB so the page stays fast. A card with no image yet still looks
+deliberate: leave the `.work-thumb-empty` span in place and it renders as a captioned
+gradient panel.
+
+Two tags sit above each project title. Client work uses the industry and location
+(`MOBILE CAR DETAILING`, `FRAMINGHAM, MA`); work built for the studio itself uses
+`<span class="work-tag work-tag-studio">STUDIO PROJECT</span>` so the two are never
+confused for one another.
 
 ## Development
 
@@ -37,7 +57,7 @@ Fonts load from Google Fonts (Inter, weights 400/500).
 
 ## Contact form
 
-The consultation form posts to [FormSubmit](https://formsubmit.co/) addressed to the business email — no backend needed. The first submission after deployment triggers a one-time activation email from FormSubmit; confirm it and all later submissions arrive in the inbox. To switch providers (Formspree, Netlify Forms, a custom endpoint), change the form's `action` attribute in `index.html`.
+The consultation form posts to [FormSubmit](https://formsubmit.co/) addressed to the business email — no backend needed. The first submission after deployment triggers a one-time activation email from FormSubmit; confirm it and all later submissions arrive in the inbox. To switch providers (Formspree, Netlify Forms, a custom endpoint), change the form's `action` attribute in `contact.html`.
 
 ## Review request tool
 

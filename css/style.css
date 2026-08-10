@@ -547,6 +547,221 @@ a.brandmark:hover { opacity: .72; }
   margin-top: 56px;
 }
 
+/* ---------- Process (How It Works) ---------- */
+
+.process {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1px;
+  background: var(--color-divider);
+  border-top: 1px solid var(--color-divider);
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.process-step {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 220px) minmax(0, 1fr);
+  align-items: baseline;
+  gap: 8px 32px;
+  padding: 28px 4px;
+  background: var(--color-bg);
+  transition: background .25s var(--ease);
+}
+
+.process-step:hover { background: color-mix(in srgb, var(--color-accent-500) 4%, transparent); }
+
+.process-num {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .18em;
+  color: var(--color-accent-500);
+}
+
+.process-step h3 {
+  font-size: 20px;
+  letter-spacing: -.005em;
+}
+
+.process-step p {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--color-muted);
+}
+
+/* ---------- Selected work ---------- */
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 28px;
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+}
+
+.work-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Holds a 16:10 project screenshot. Without an image the gradient and
+   hairline grid stand in, so an unfilled slot still looks deliberate. */
+.work-thumb {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--color-accent-500) 14%, transparent), transparent 60%),
+    var(--color-neutral-900);
+  border-bottom: 1px solid var(--color-divider);
+  overflow: hidden;
+}
+
+.work-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.work-thumb-empty {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: .24em;
+  color: var(--color-neutral-500);
+}
+
+.work-body { padding: 28px 28px 30px; }
+
+.work-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.work-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-divider-strong);
+  color: var(--color-neutral-400);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .16em;
+}
+
+.work-tag-studio {
+  border-color: var(--color-accent-500);
+  color: var(--color-accent-500);
+}
+
+.work-card h3 {
+  font-size: 21px;
+  letter-spacing: -.005em;
+  margin-bottom: 8px;
+}
+
+.work-built {
+  margin: 0 0 12px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .1em;
+  color: var(--color-accent-400);
+}
+
+.work-card p {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--color-muted);
+}
+
+.work-card .link-rule {
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+/* ---------- What you get ---------- */
+
+.included-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 2px 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.included-grid li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--color-divider);
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+.included-grid svg {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  color: var(--color-accent-500);
+}
+
+.included-note {
+  margin: 32px 0 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-muted);
+  max-width: 620px;
+}
+
+/* ---------- Social band ---------- */
+
+.social-band {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px 32px;
+  padding: 34px 40px;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.social-band h3 {
+  font-size: 20px;
+  letter-spacing: -.005em;
+  margin-bottom: 6px;
+}
+
+.social-band p {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--color-muted);
+  max-width: 460px;
+}
+
 /* ---------- Promise / Terms split ---------- */
 
 .split {
@@ -1151,6 +1366,12 @@ a.brandmark:hover { opacity: .72; }
 
   .faq-grid { grid-template-columns: 1fr; }
 
+  .process-step { grid-template-columns: 72px minmax(0, 1fr); }
+
+  .process-step p { grid-column: 2; }
+
+  .social-band { padding: 30px 32px; }
+
   .site-footer { grid-template-columns: 1fr 1fr; padding: 64px 40px 36px; }
 
   .site-footer-brand { grid-column: 1 / -1; }
@@ -1166,7 +1387,21 @@ a.brandmark:hover { opacity: .72; }
 
   .masthead { padding: 40px 24px 32px; }
 
-  .nav { gap: 14px 28px; padding: 14px 24px; }
+  /* The masthead sits directly above with the full lockup, so the nav's own
+     brand is redundant here — dropping it keeps the sticky bar short enough
+     that it doesn't eat the screen on a phone. */
+  .nav-brand { display: none; }
+
+  .nav {
+    gap: 10px 20px;
+    padding: 12px 20px;
+    font-size: 11px;
+    letter-spacing: .14em;
+  }
+
+  .promo-bar-tag { padding: 2px 7px; font-size: 9.5px; letter-spacing: .12em; }
+
+  .nav-report { gap: 6px; }
 
   .hero-copy, .services, .faq, .promise-panel, .terms-panel, .page-header, .cta-band, .legal { padding: 52px 24px; }
 
@@ -1175,6 +1410,22 @@ a.brandmark:hover { opacity: .72; }
   .services-grid { grid-template-columns: 1fr; }
 
   .services-more { margin-top: 44px; }
+
+  .process-step {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: 24px 4px;
+  }
+
+  .process-step p { grid-column: 1; }
+
+  .work-grid { grid-template-columns: 1fr; }
+
+  .work-body { padding: 24px 22px 26px; }
+
+  .included-grid { grid-template-columns: 1fr; gap: 0; }
+
+  .social-band { padding: 26px 24px; }
 
   .section-head { gap: 14px; margin-bottom: 36px; }
 
