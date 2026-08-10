@@ -519,6 +519,10 @@ a.brandmark:hover { opacity: .72; }
    doesn't divide evenly into the columns. */
 .service-wide { grid-column: 1 / -1; }
 
+/* Supporting services sit four-up on a wide screen and reflow on their own,
+   rather than inheriting the three-column rhythm of the teaser grid. */
+.services-grid-support { grid-template-columns: repeat(auto-fit, minmax(238px, 1fr)); }
+
 .service-icon {
   display: block;
   width: 34px;
@@ -733,6 +737,49 @@ a.brandmark:hover { opacity: .72; }
   color: var(--color-muted);
   max-width: 620px;
 }
+
+/* ---------- Primary service ---------- */
+
+/* One service carries the studio; the rest support it. This panel is
+   deliberately the heaviest element on the page so that hierarchy reads
+   before any of the copy does. */
+.primary-service {
+  display: grid;
+  grid-template-columns: 1.05fr .95fr;
+  gap: 40px 56px;
+  padding: 44px 44px 46px;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  border-top: 2px solid var(--color-accent-500);
+  box-shadow: var(--shadow-md);
+}
+
+.primary-service .service-icon {
+  width: 38px;
+  height: 38px;
+  margin-bottom: 20px;
+}
+
+.primary-service h3 {
+  font-size: clamp(27px, 3.2vw, 36px);
+  line-height: 1.1;
+  letter-spacing: -.012em;
+  margin-bottom: 14px;
+}
+
+.primary-service-lede {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--color-muted);
+}
+
+.primary-service .link-rule {
+  display: inline-block;
+  margin-top: 26px;
+}
+
+.primary-service-list { align-self: center; }
 
 /* ---------- Pricing tiers ---------- */
 
@@ -1464,6 +1511,10 @@ a.brandmark:hover { opacity: .72; }
 
   .tier-grid { grid-template-columns: 1fr; }
 
+  .primary-service { grid-template-columns: 1fr; gap: 28px; padding: 36px 32px 38px; }
+
+  .primary-service-list { align-self: start; }
+
   .social-band { padding: 30px 32px; }
 
   .site-footer { grid-template-columns: 1fr 1fr; padding: 64px 40px 36px; }
@@ -1520,6 +1571,8 @@ a.brandmark:hover { opacity: .72; }
   .included-grid { grid-template-columns: 1fr; gap: 0; }
 
   .tier { padding: 26px 22px 28px; }
+
+  .primary-service { padding: 28px 22px 30px; }
 
   .tier-note { padding: 22px 22px; }
 
