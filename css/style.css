@@ -790,6 +790,13 @@ a.brandmark:hover { opacity: .72; }
   align-items: start;
 }
 
+/* Two tiers read better held to a readable measure than stretched across
+   the full width of a wide screen. */
+.tier-grid-two {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 900px;
+}
+
 .tier {
   display: flex;
   flex-direction: column;
