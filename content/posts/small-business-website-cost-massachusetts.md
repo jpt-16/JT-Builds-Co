@@ -28,7 +28,7 @@ Every quote you receive in this state falls into one of four groups.
 
 **A freelancer or a one-person studio.** Somewhere between a few hundred dollars and $4,000, paid once. One person does the design, the build and the launch. There is no sales team, no project manager, and no office lease inside the number.
 
-**A small local studio or agency.** Typically $2,500 to $8,000. You get a defined process, a contract, a designer and a developer who are different people, and usually a WordPress build. Webstudio Boston publishes its tiers openly — $1,995 for a five-page starter, $3,495 for a fifteen-page small business site, $4,995 for a twenty-five page professional build [EXTERNAL LINK: Webstudio Boston pricing page, updated June 2026].
+**A small local studio or agency.** Typically $2,500 to $8,000. You get a defined process, a contract, a designer and a developer who are different people, and usually a WordPress build. Webstudio Boston publishes its tiers openly — $1,995 for a five-page starter, $3,495 for a fifteen-page small business site, $4,995 for a twenty-five page professional build ([Webstudio Boston pricing page, updated June 2026](https://webstudioboston.com/website-design-pricing-boston-ma-webstudio-boston/)).
 
 **A full-service agency.** $10,000 and up, often far up. Strategy, discovery workshops, custom photography, copywriters, a designer, a developer, an account manager. Slocum Design Studio in Dartmouth currently ranks first in Massachusetts for this question and quotes professional local projects at $7,000 and above. Boston agency work routinely runs past $30,000.
 

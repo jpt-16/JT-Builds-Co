@@ -32,13 +32,13 @@ So: no federal regulation currently forces your salon's website to meet WCAG. Th
 
 ## What the litigation data actually shows
 
-More than 5,000 digital accessibility lawsuits were filed in 2025, and roughly 64% of the companies sued had annual revenue under $25 million [EXTERNAL LINK: UsableNet, "ADA Web Lawsuit Trends for 2026," published 8 January 2026].
+More than 5,000 digital accessibility lawsuits were filed in 2025, and roughly 64% of the companies sued had annual revenue under $25 million ([UsableNet, "ADA Web Lawsuit Trends for 2026," published 8 January 2026](https://blog.usablenet.com/ada-web-lawsuit-trends-2026)).
 
 Two things follow from that, and both matter.
 
 The first is that this is not only a Fortune 500 problem. Most defendants are not large companies.
 
-The second is that "under $25 million in revenue" is a very wide bracket, and it does not mean two-person shops. The filings concentrate heavily on e-commerce — businesses that take money on the site. Independent analysts have made the point that most small businesses will never see a lawsuit, and that the litigation clusters around online retail [EXTERNAL LINK: TestParty, "Do Small Businesses Need Accessible Websites?"].
+The second is that "under $25 million in revenue" is a very wide bracket, and it does not mean two-person shops. The filings concentrate heavily on e-commerce — businesses that take money on the site. Independent analysts have made the point that most small businesses will never see a lawsuit, and that the litigation clusters around online retail ([TestParty, "Do Small Businesses Need Accessible Websites?"](https://testparty.ai/blog/small-business-accessibility)).
 
 Here is my honest read. If you are a barbershop in Norwood with a five-page brochure site and a phone number, your realistic litigation risk is low. If you sell products online, run a booking and payment flow, or operate multiple locations, it is meaningfully higher. Owners in small business forums describe receiving demand letters from serial filers, and the letters are typically settlement demands rather than trials.
 
@@ -48,7 +48,7 @@ Fear-selling this topic is common and I do not want to add to it.
 
 Set the lawsuits aside for a moment.
 
-Roughly one in four American adults lives with some form of disability [EXTERNAL LINK: CDC, "Disability Impacts All of Us" data page — verify the current figure before publishing]. An inaccessible site does not politely degrade for them — it fails. A form with no labels cannot be completed with a screen reader. Text at low contrast cannot be read in bright sun on a phone, which is where most of your customers are. A button with no text is invisible to assistive software and to Google's crawler alike.
+Roughly one in four American adults lives with some form of disability ([CDC, "Disability Impacts All of Us"](https://www.cdc.gov/disability-and-health/articles-documents/disability-impacts-all-of-us-infographic.html)). An inaccessible site does not politely degrade for them — it fails. A form with no labels cannot be completed with a screen reader. Text at low contrast cannot be read in bright sun on a phone, which is where most of your customers are. A button with no text is invisible to assistive software and to Google's crawler alike.
 
 The overlap with plain quality is almost total. Nearly everything on the WCAG 2.1 AA list also makes a site faster, clearer, and easier for everyone else to use.
 
