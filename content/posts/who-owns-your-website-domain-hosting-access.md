@@ -8,7 +8,7 @@ keywords:
   - who owns my domain name
   - transfer domain from web designer
   - do i own my website if someone else built it
-date: "2026-08-31"
+date: "2026-09-28"
 published: false
 schema: "Article"
 ---

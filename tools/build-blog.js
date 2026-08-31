@@ -88,9 +88,23 @@ function normaliseTarget(target) {
   return target;
 }
 
+// slugs that are live right now; a link to anything else would be a 404
+let LIVE_SLUGS = new Set();
+const DEFERRED = [];
+
 function linkHtml(target, anchor) {
   const href = normaliseTarget(target);
   const external = /^https?:\/\//.test(href);
+  if (!external && href.startsWith('/blog/')) {
+    const slug = href.slice('/blog/'.length);
+    if (!LIVE_SLUGS.has(slug)) {
+      // the sibling is not published yet. Keep the sentence intact and leave
+      // the words unlinked rather than shipping a 404. The next build after
+      // that post goes live turns it back into a link, with no edit here.
+      DEFERRED.push({ slug, anchor });
+      return escapeHtml(anchor);
+    }
+  }
   const attrs = external ? ' target="_blank" rel="noopener"' : '';
   return `<a href="${escapeAttr(href)}"${attrs}>${escapeHtml(anchor)}</a>`;
 }
@@ -494,21 +508,23 @@ function main() {
 
   const bySlug = new Map(all.map((p) => [p.slug, p]));
   const warnings = [];
+  LIVE_SLUGS = new Set(live.map((p) => p.slug));
 
   for (const p of live) {
     if (!p.date) warnings.push(`${p.file}: no date in front matter, so the index shows none.`);
+    DEFERRED.length = 0;
     p.html = p.render();
+    for (const d of DEFERRED) {
+      const target = bySlug.get(d.slug);
+      warnings.push(target
+        ? `${p.file}: "${d.anchor}" left unlinked until ${d.slug} publishes.`
+        : `${p.file}: links to /blog/${d.slug}, which is not a post in content/posts/.`);
+    }
     // internal links must point at something that exists
     for (const m of p.html.matchAll(/href="(\/[^"#]*)"/g)) {
       const href = m[1].replace(/\/$/, '') || '/';
       if (href === '/') continue;
-      if (href.startsWith('/blog/')) {
-        const slug = href.slice('/blog/'.length);
-        const target = bySlug.get(slug);
-        if (!target) warnings.push(`${p.file}: links to /blog/${slug}, which is not a post in content/posts/.`);
-        else if (!target.published) warnings.push(`${p.file}: links to /blog/${slug}, which is not published yet — that link will 404.`);
-        continue;
-      }
+      if (href.startsWith('/blog/')) continue;
       if (href === '/blog') continue;
       const asFile = path.join(ROOT, href.slice(1) + '.html');
       if (!fs.existsSync(asFile)) warnings.push(`${p.file}: links to ${href}, and ${path.basename(asFile)} does not exist.`);

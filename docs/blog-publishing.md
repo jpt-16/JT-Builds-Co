@@ -32,13 +32,24 @@ To unpublish, set `published: false` and rebuild. The page is deleted from
 
 ---
 
-## Read the warnings
+## Links to posts that are not live yet
 
-The build prints a warning, rather than failing, when a published post links to
-a post that is not published yet. That link will 404 until the sibling goes
-live, so either publish them together or leave the batch alone until you do.
+Handled for you. When a published post links to a sibling that is still held
+back, the build keeps the sentence and leaves those words unlinked rather than
+shipping a 404, and prints a line saying so:
 
-It also warns when a post has no `date`, or links to a page that does not exist.
+```
+  google-business-profile-setup-massachusetts.md: "More on whether you need a
+  site at all" left unlinked until facebook-page-vs-website-small-business
+  publishes.
+```
+
+The next build after that sibling goes live turns it back into a real link. You
+do not edit anything — just rebuild after each publication, which you are doing
+anyway.
+
+The build also warns when a post has no `date`, or links to a page that does
+not exist at all.
 
 ---
 
@@ -88,3 +99,21 @@ Alt text is already written for every suggested image. Keep it.
   change reaches every post on the next build.
 - Tables are wrapped in a keyboard-reachable scroll box, so a long table never
   widens the page.
+
+---
+
+## The schedule
+
+| # | Post | Date |
+|---|---|---|
+| 1 | `google-business-profile-setup-massachusetts` | Mon 14 Sep 2026 |
+| 2 | `who-owns-your-website-domain-hosting-access` | Mon 28 Sep 2026 |
+| 3 | `small-business-website-cost-massachusetts` | Mon 12 Oct 2026 |
+| 4 | `what-to-have-ready-before-hiring-web-designer` | Mon 26 Oct 2026 |
+| 5 | `facebook-page-vs-website-small-business` | Mon 9 Nov 2026 |
+| 6 | `salon-barbershop-website-booking-massachusetts` | Mon 23 Nov 2026 |
+| 7 | `ada-website-compliance-small-business-massachusetts` | Mon 7 Dec 2026 |
+| 8 | `wix-squarespace-or-hand-built-website` | Mon 21 Dec 2026 |
+
+Dates are already set in each file's front matter. Every post still needs its
+`[EXTERNAL LINK]` markers resolved and `published: true` before it goes live.

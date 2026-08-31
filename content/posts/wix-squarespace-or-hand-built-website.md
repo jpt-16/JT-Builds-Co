@@ -8,7 +8,7 @@ keywords:
   - when to move off a website builder
   - custom website vs template
   - squarespace vs custom website cost
-date: "2026-08-31"
+date: "2026-12-21"
 published: false
 schema: "Article"
 ---

@@ -9,7 +9,7 @@ keywords:
   - website accessibility lawsuit
   - ada compliant website massachusetts
   - accessible website small business
-date: "2026-08-31"
+date: "2026-12-07"
 published: false
 schema: "Article"
 ---
