@@ -64,3 +64,18 @@ The consultation form posts to [FormSubmit](https://formsubmit.co/) addressed to
 `dashboard.html` (not linked from the public nav) and `api/send-review-request.js` are a small internal tool for sending an automated "please leave a review" text once a job wraps — the automation behind the Reviews service described on the Services and Pricing pages. It's the one part of this repo that isn't purely static: the `/api` function needs a serverless host to run.
 
 Without Twilio credentials configured, it runs in dry run — the form works and shows you the exact message that would be sent, but nothing goes out. `python3 -m http.server` still works for browsing every other page, but won't execute the API function; local testing of the send flow needs the Vercel CLI (`vercel dev`). See [SETUP.md](SETUP.md) for deployment, environment variables, Twilio/carrier verification, and compliance notes before sending to real customers.
+
+## Guides (blog)
+
+Drafts live in `content/posts/*.md`. Nothing publishes until its front matter
+says `published: true`.
+
+```bash
+npm run blog          # build blog/ and refresh the sitemap
+npm run blog:check    # validate only
+```
+
+The generator (`tools/build-blog.js`) has no dependencies and does not run on
+Vercel — it writes plain HTML that you commit, same as every other page. It
+refuses to publish a post that still contains an unresolved `[EXTERNAL LINK]`
+marker. Full workflow in `docs/blog-publishing.md`.

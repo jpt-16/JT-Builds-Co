@@ -45,4 +45,11 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  <!-- blog:start -->
+  <url>
+    <loc>https://jtbuildsco.com/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- blog:end -->
 </urlset>

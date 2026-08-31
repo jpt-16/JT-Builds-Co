@@ -1730,3 +1730,198 @@ a.brandmark:hover { opacity: .72; }
 .skip-link:focus {
   top: 12px;
 }
+
+/* ---------- Guides / blog ---------- */
+
+.guide-list {
+  display: grid;
+  gap: 1px;
+  background: var(--color-divider);
+  border-top: 1px solid var(--color-divider);
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.guide-card {
+  background: var(--color-bg);
+  padding: 34px 4px 36px;
+}
+
+.guide-date {
+  margin: 0 0 10px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--color-accent-500);
+}
+
+.guide-card h2 {
+  font-size: clamp(21px, 2.4vw, 26px);
+  line-height: 1.22;
+  letter-spacing: -.008em;
+  margin-bottom: 10px;
+  max-width: 46ch;
+}
+
+.guide-card h2 a { text-decoration: none; transition: color .25s; }
+
+.guide-card h2 a:hover { color: var(--color-accent-500); }
+
+.guide-card p {
+  margin: 0 0 18px;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--color-muted);
+  max-width: 68ch;
+}
+
+/* ---------- A single guide ---------- */
+
+.post {
+  padding: 80px 64px 96px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.post-back {
+  display: inline-block;
+  margin-bottom: 34px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .22em;
+  color: var(--color-accent-500);
+  text-decoration: none;
+}
+
+.post-back:hover { text-decoration: underline; }
+
+.post h1 {
+  font-size: clamp(32px, 4.6vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -.012em;
+}
+
+.post-meta {
+  margin: 20px 0 0;
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.post-standfirst {
+  margin: 22px 0 0;
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--color-neutral-300);
+  padding-bottom: 34px;
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.post-body { font-size: 16px; line-height: 1.78; }
+
+.post-body h2 {
+  font-size: 25px;
+  line-height: 1.2;
+  letter-spacing: -.008em;
+  margin: 52px 0 16px;
+}
+
+.post-body h3 {
+  font-size: 18px;
+  margin: 36px 0 12px;
+}
+
+.post-body p { margin: 0 0 20px; color: var(--color-neutral-200); }
+
+.post-body strong { color: var(--color-text); font-weight: 500; }
+
+.post-body ul, .post-body ol {
+  margin: 0 0 22px;
+  padding-left: 22px;
+  color: var(--color-neutral-200);
+}
+
+.post-body li { margin-bottom: 9px; }
+
+.post-body a { color: var(--color-accent-400); text-decoration-color: var(--color-accent-800); }
+
+.post-body a:hover { color: var(--color-accent-300); }
+
+.post-body hr {
+  border: 0;
+  height: 1px;
+  background: var(--color-divider);
+  margin: 44px 0;
+}
+
+.post-body code {
+  font-size: 13.5px;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+}
+
+.post-body pre {
+  overflow-x: auto;
+  padding: 18px 20px;
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.post-body pre code { padding: 0; background: none; }
+
+.post-body figure { margin: 32px 0; }
+
+.post-body img { display: block; width: 100%; height: auto; border-radius: var(--radius-md); }
+
+/* tables scroll inside their own box rather than widening the page */
+.post-table-wrap {
+  overflow-x: auto;
+  margin: 0 0 26px;
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-md);
+}
+
+.post-table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+
+.post-table-wrap th,
+.post-table-wrap td {
+  padding: 13px 16px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.post-table-wrap th {
+  font-weight: 500;
+  letter-spacing: .06em;
+  color: var(--color-accent-500);
+  white-space: nowrap;
+}
+
+.post-table-wrap td { color: var(--color-neutral-200); }
+
+.post-table-wrap tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 960px) {
+  .post { padding: 64px 40px 80px; }
+}
+
+@media (max-width: 600px) {
+  .post { padding: 48px 24px 64px; }
+  .post-standfirst { font-size: 16.5px; }
+  .post-body { font-size: 15.5px; }
+  .post-body h2 { font-size: 22px; margin-top: 42px; }
+  .guide-card { padding: 28px 0 30px; }
+}
+
+.post-table-wrap:focus-visible {
+  outline: 2px solid var(--color-accent-500);
+  outline-offset: 2px;
+}

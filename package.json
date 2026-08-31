@@ -2,5 +2,9 @@
   "private": true,
   "engines": {
     "node": "20.x"
+  },
+  "scripts": {
+    "blog": "node tools/build-blog.js",
+    "blog:check": "node tools/build-blog.js --check"
   }
 }
