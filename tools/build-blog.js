@@ -176,7 +176,11 @@ function renderBody(md) {
       out.push(
         // tabindex makes the scroll box reachable by keyboard (WCAG 2.1.1)
         '<div class="post-table-wrap" tabindex="0" role="group" aria-label="Table, scrolls sideways"><table>' +
-        '<thead><tr>' + head.map((c) => `<th>${inline(c)}</th>`).join('') + '</tr></thead>' +
+        // a blank corner cell in a comparison table is not a header;
+        // emitting <th></th> leaves a header with no accessible name
+        '<thead><tr>' + head.map((c) => (c.trim()
+          ? `<th scope="col">${inline(c)}</th>`
+          : '<td></td>')).join('') + '</tr></thead>' +
         '<tbody>' + body.map((r) => '<tr>' + r.map((c) => `<td>${inline(c)}</td>`).join('') + '</tr>').join('') +
         '</tbody></table></div>'
       );

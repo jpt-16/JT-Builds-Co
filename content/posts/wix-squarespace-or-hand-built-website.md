@@ -40,7 +40,7 @@ That is the spirit of this comparison. Wix, Squarespace and a hand-built site ar
 | Time to launch | Hours, if you do it | Hours, if you do it | Days |
 | Portability if you leave | Poor | Poor | Good |
 
-Builder subscription prices change often — check both pricing pages before publishing rather than trusting the figures above [EXTERNAL LINK: Wix pricing page] [EXTERNAL LINK: Squarespace pricing page].
+Builder subscription prices change often — check both pricing pages before publishing rather than trusting the figures above ([Wix pricing page](https://www.wix.com/upgrade/website), [Squarespace pricing page](https://www.squarespace.com/pricing)).
 
 Two rows deserve elaboration.
 

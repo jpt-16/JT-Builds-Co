@@ -60,7 +60,7 @@ This is where projects get genuinely stuck.
 
 Find out **who registered your domain and where**. GoDaddy, Namecheap, Google Domains, Wix, whoever. Then confirm you can log into that account yourself.
 
-If a previous designer registered it for you, this is the moment to find out whether it is in your name — the registrant on record is the party with control, and transfers follow a published process [EXTERNAL LINK: ICANN, "Transferring Your Domain Name" registrant guidance]. Sometimes it is not, and sorting that out takes weeks. Better to discover it now than the day before launch. [INTERNAL LINK: /posts/who-owns-your-website-domain-hosting-access "What to do if the domain is not in your name"]
+If a previous designer registered it for you, this is the moment to find out whether it is in your name — the registrant on record is the party with control, and transfers follow a published process ([ICANN, "Transferring Your Domain Name" registrant guidance](https://www.icann.org/resources/pages/transferring-your-domain-name-2017-10-10-en)). Sometimes it is not, and sorting that out takes weeks. Better to discover it now than the day before launch. [INTERNAL LINK: /posts/who-owns-your-website-domain-hosting-access "What to do if the domain is not in your name"]
 
 If you have no domain at all, that is simpler. Have two or three names in mind.
 

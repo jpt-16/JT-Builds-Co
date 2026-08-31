@@ -24,9 +24,9 @@ I want to be careful here. I build websites to accessibility standards as a matt
 
 The Americans with Disabilities Act was written in 1990 and does not mention websites. Title III covers "places of public accommodation" — businesses open to the public. The unsettled question is whether a website counts as one.
 
-Courts have split on it. Some federal circuits have held that a website is covered on its own; others have held it is covered only when tied to a physical location. Insurers describe the law as unsettled, and they are not being evasive — it genuinely is [EXTERNAL LINK: Hanover Insurance risk solutions, "Website accessibility guidelines and what they mean for your business"].
+Courts have split on it. Some federal circuits have held that a website is covered on its own; others have held it is covered only when tied to a physical location. Insurers describe the law as unsettled, and they are not being evasive — it genuinely is ([Hanover Insurance risk solutions, "Website accessibility guidelines and what they mean for your business"](https://www.hanover.com/businesses/business-customer-resources/hanover-risk-solutions/website-accessibility-guidelines-and)).
 
-In April 2024 the Department of Justice issued a rule that does set a firm technical standard, adopting **WCAG 2.1 Level AA**. That rule applies to state and local government entities, not private businesses, and its compliance deadlines currently sit at April 2027 for larger entities and April 2028 for smaller ones after an extension published in April 2026 [EXTERNAL LINK: ADA.gov, "Fact Sheet: New Rule on the Accessibility of Web Content and Mobile Apps"].
+In April 2024 the Department of Justice issued a rule that does set a firm technical standard, adopting **WCAG 2.1 Level AA**. That rule applies to state and local government entities, not private businesses, and its compliance deadlines currently sit at April 2027 for larger entities and April 2028 for smaller ones after an extension published in April 2026 ([ADA.gov, "Fact Sheet: New Rule on the Accessibility of Web Content and Mobile Apps"](https://www.ada.gov/resources/2024-03-08-web-rule/)).
 
 So: no federal regulation currently forces your salon's website to meet WCAG. That is not the same as saying nothing can happen to you.
 
@@ -54,7 +54,7 @@ The overlap with plain quality is almost total. Nearly everything on the WCAG 2.
 
 ## What actually gets flagged
 
-The failures are boringly consistent. WebAIM tests the top million home pages every year. In the February 2026 report, **95.9% had detectable WCAG failures**, averaging 56.1 errors per page, and six issues accounted for 96% of everything found [EXTERNAL LINK: WebAIM Million 2026 report]:
+The failures are boringly consistent. WebAIM tests the top million home pages every year. In the February 2026 report, **95.9% had detectable WCAG failures**, averaging 56.1 errors per page, and six issues accounted for 96% of everything found ([WebAIM Million 2026 report](https://webaim.org/projects/million/)):
 
 | Failure | Share of home pages |
 |---|---|

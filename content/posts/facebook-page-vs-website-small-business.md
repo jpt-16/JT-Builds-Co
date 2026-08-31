@@ -41,7 +41,7 @@ Four gaps. None of them announce themselves — that is what makes them expensiv
 
 Meta owns your page, your follower list and your posted content. Accounts get restricted, hacked and disabled, sometimes wrongly, and the appeal process is a form rather than a person. Small business owners describe this happening in forum threads constantly, and the recovery stories are grim.
 
-Meta's own terms make clear that a Page is an account on its platform, subject to its policies and enforcement [EXTERNAL LINK: Meta Pages, Groups and Events Policies]. There is no version of this where you control the outcome. A domain you registered, in your name, is yours in a way a Facebook page never will be. [INTERNAL LINK: /posts/who-owns-your-website-domain-hosting-access "Ownership is the whole argument, and it applies to websites too"]
+Meta's own terms make clear that a Page is an account on its platform, subject to its policies and enforcement ([Meta Pages, Groups and Events Policies](https://www.facebook.com/policies_center/pages_groups_events/)). There is no version of this where you control the outcome. A domain you registered, in your name, is yours in a way a Facebook page never will be. [INTERNAL LINK: /posts/who-owns-your-website-domain-hosting-access "Ownership is the whole argument, and it applies to websites too"]
 
 ### Not everyone is going to look
 

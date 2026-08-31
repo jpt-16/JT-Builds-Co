@@ -71,7 +71,7 @@ It is recoverable more often than people assume. In order:
 
 **Check your contract and your invoices.** If a contract exists, it may already say the domain is yours. Invoices showing you paid for domain registration are useful evidence.
 
-**Go to the registrar directly.** If the registration is in your business's name but you cannot access the account, the registrar has a recovery process and can help. Domain transfers between registrars follow a published process that every registrar has to honour [EXTERNAL LINK: ICANN, "Transferring Your Domain Name" registrant guidance]. If it is in the designer's name, the registrar will not simply hand it over — it belongs to the registrant.
+**Go to the registrar directly.** If the registration is in your business's name but you cannot access the account, the registrar has a recovery process and can help. Domain transfers between registrars follow a published process that every registrar has to honour ([ICANN, "Transferring Your Domain Name" registrant guidance](https://www.icann.org/resources/pages/transferring-your-domain-name-2017-10-10-en)). If it is in the designer's name, the registrar will not simply hand it over — it belongs to the registrant.
 
 **Get a lawyer's letter.** Often less expensive than people expect, and frequently enough on its own. I am not a lawyer and this is not legal advice — if real money or a long-established domain is involved, speak to one properly.
 

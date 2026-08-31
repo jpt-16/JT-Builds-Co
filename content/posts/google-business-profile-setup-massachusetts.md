@@ -22,7 +22,7 @@ I set these up for clients alongside their sites, and the difference between a p
 
 ## What Google says it is measuring
 
-Google publishes its own answer, and it is worth reading before you touch anything. Local ranking comes down to three things: relevance, distance and prominence [EXTERNAL LINK: Google Business Profile Help, "Improve your local ranking on Google"].
+Google publishes its own answer, and it is worth reading before you touch anything. Local ranking comes down to three things: relevance, distance and prominence ([Google Business Profile Help, "Improve your local ranking on Google"](https://support.google.com/business/answer/7091?hl=en)).
 
 **Relevance** is how well your profile matches what somebody typed. **Distance** is how far you are from them, which you cannot change. **Prominence** is how well known your business is — review count, review scores, and links to your site from elsewhere on the web.
 
@@ -55,7 +55,7 @@ Test it yourself. Search the term a customer would use, look at who appears in t
 
 Google treats these as different kinds of business, and getting it wrong is the most common cause of suspension.
 
-If customers come to you — a salon, a shop, a garage — show your address. If you go to them — detailing, plumbing, landscaping, mobile services — hide the address and set a service area instead. Do not display a home address for a business customers never visit. Google's guidelines are explicit that your listed location has to be somewhere you are actually staffed during stated hours [EXTERNAL LINK: Google Business Profile Help, "Guidelines for representing your business on Google"].
+If customers come to you — a salon, a shop, a garage — show your address. If you go to them — detailing, plumbing, landscaping, mobile services — hide the address and set a service area instead. Do not display a home address for a business customers never visit. Google's guidelines are explicit that your listed location has to be somewhere you are actually staffed during stated hours ([Google Business Profile Help, "Guidelines for representing your business on Google"](https://support.google.com/business/answer/3038177?hl=en)).
 
 Keep the service area realistic. A detailer in Foxboro listing Foxborough, Mansfield, Walpole, Norton, Wrentham, Plainville and Sharon is credible. The same detailer listing all of Massachusetts is not, and the wider area does not help you rank further away — distance is measured from your actual location regardless.
 
