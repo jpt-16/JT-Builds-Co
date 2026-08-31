@@ -903,6 +903,11 @@ a.brandmark:hover { opacity: .72; }
   color: var(--color-text);
 }
 
+.tier-price-per {
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
 .tier-lede {
   margin: 0 0 20px;
   font-size: 14.5px;
