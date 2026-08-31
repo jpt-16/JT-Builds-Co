@@ -889,6 +889,20 @@ a.brandmark:hover { opacity: .72; }
   margin-bottom: 8px;
 }
 
+.tier-price {
+  margin: 0 0 14px;
+  font-size: 15px;
+  color: var(--color-muted);
+}
+
+.tier-price strong {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-weight);
+  font-size: 27px;
+  letter-spacing: -.01em;
+  color: var(--color-text);
+}
+
 .tier-lede {
   margin: 0 0 20px;
   font-size: 14.5px;
