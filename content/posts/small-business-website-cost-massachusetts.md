@@ -24,11 +24,11 @@ So here is the whole picture, tier by tier, with the economics behind each numbe
 
 Every quote you receive in this state falls into one of four groups.
 
-**Do it yourself on a builder.** Wix, Squarespace, GoDaddy. You pay roughly $200 to $600 a year and you supply all the labour. Roux Software's 2026 Massachusetts pricing guide puts DIY builders in that same band [EXTERNAL LINK: Roux Software, "How Much Does a Website Cost for a Small Business in Massachusetts?", published 14 July 2026]. The money is small. The cost is your evenings.
+**Do it yourself on a builder.** Wix, Squarespace, GoDaddy. You pay roughly $200 to $600 a year and you supply all the labour. The money is small. The cost is your evenings.
 
 **A freelancer or a one-person studio.** Somewhere between a few hundred dollars and $4,000, paid once. One person does the design, the build and the launch. There is no sales team, no project manager, and no office lease inside the number.
 
-**A small local studio or agency.** Typically $2,500 to $8,000. You get a defined process, a contract, a designer and a developer who are different people, and usually a WordPress build. Webstudio Boston publishes its tiers openly — $1,995 for a five-page starter, $3,495 for a fifteen-page small business site, $4,995 for a twenty-five page professional build ([Webstudio Boston pricing page, updated June 2026](https://webstudioboston.com/website-design-pricing-boston-ma-webstudio-boston/)).
+**A small local studio or agency.** Typically $2,500 to $8,000. You get a defined process, a contract, a designer and a developer who are different people, and usually a WordPress build. Webstudio Boston publishes its tiers openly — $1,995 for a five-page starter, $3,495 for a fifteen-page small business site, $4,995 for a twenty-five page professional build ([Webstudio Boston pricing page, updated June 2026](https://www.webstudioboston.com/website-design-pricing-boston-ma-webstudio-boston/)).
 
 **A full-service agency.** $10,000 and up, often far up. Strategy, discovery workshops, custom photography, copywriters, a designer, a developer, an account manager. Slocum Design Studio in Dartmouth currently ranks first in Massachusetts for this question and quotes professional local projects at $7,000 and above. Boston agency work routinely runs past $30,000.
 
@@ -42,7 +42,7 @@ A twenty-person agency in Boston is carrying rent, salaries, benefits, sales com
 
 A salon in Walpole does not have fourteen stakeholders. It has one owner who knows exactly what she wants and can tell you in ten minutes.
 
-I run JT Builds Co. by myself out of Foxboro. No office, no account managers, no ticket queue, no sales staff. That is why the setup fee starts at $225 and the monthly plan starts at $35. It is not a discount and it is not a loss leader. It is what the work costs when there is nobody standing between you and the person building it.
+I run JT Builds Co. by myself out of Foxboro. No office, no account managers, no ticket queue, no sales staff. That is why the setup fee starts at $225 and the monthly plan starts at $45. It is not a discount and it is not a loss leader. It is what the work costs when there is nobody standing between you and the person building it.
 
 [INTERNAL LINK: /pricing "the two numbers, in full"]
 
@@ -92,7 +92,7 @@ If your website is the main way you take money — e-commerce, a booking-driven 
 ## Frequently asked questions
 
 **How much does a small business website cost in Massachusetts?**
-Most Massachusetts small businesses pay between $2,000 and $8,000 for a professionally designed website, according to 2026 pricing guides published by local studios. DIY builders run $200 to $600 a year. One-person studios can be significantly less — JT Builds Co. starts at $225 for the build and $35 a month for hosting and upkeep.
+Most Massachusetts small businesses pay between $2,000 and $8,000 for a professionally designed website, according to 2026 pricing guides published by local studios. DIY builders run $200 to $600 a year. One-person studios can be significantly less — JT Builds Co. starts at $225 for the build and $45 a month for hosting and upkeep.
 
 **Is $1,000 too cheap for a business website?**
 No, but it changes what you should expect. Under $1,000 you are buying a small number of hours from one person. That is enough for a well-built site for a service business with a handful of pages. It is not enough for e-commerce, custom functionality or a brand identity built from scratch.
@@ -120,7 +120,7 @@ If you would rather just get a number for your own business, tell me what you do
 
 1. **Hero.** A plain comparison table rendered as a graphic, four price tiers side by side. Alt text: "Four pricing tiers for Massachusetts small business websites, from DIY builders at $200 a year to full agencies at $10,000 and up."
 2. **Mid-article.** A photograph of a laptop on a workbench in a small shop, real environment, not a stock office. Alt text: "A laptop open on a workbench inside a small Massachusetts service business."
-3. **Near the FAQ.** A screenshot of the JT Builds pricing page showing the two numbers. Alt text: "The JT Builds Co. pricing page showing a $225 setup fee and a $35 monthly care plan."
+3. **Near the FAQ.** A screenshot of the JT Builds pricing page showing the two numbers. Alt text: "The JT Builds Co. pricing page showing a $225 setup fee and a $45 monthly care plan."
 
 ---
 

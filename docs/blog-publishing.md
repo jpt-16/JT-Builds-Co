@@ -110,16 +110,18 @@ Weekly, Mondays. Post 1 is live.
 |---|---|---|---|
 | 1 | `google-business-profile-setup-massachusetts` | Mon 31 Aug 2026 | **live** |
 | 2 | `who-owns-your-website-domain-hosting-access` | Mon 7 Sep 2026 | ready |
-| 3 | `small-business-website-cost-massachusetts` | Mon 14 Sep 2026 | needs Roux URL |
+| 3 | `small-business-website-cost-massachusetts` | Mon 14 Sep 2026 | ready |
 | 4 | `what-to-have-ready-before-hiring-web-designer` | Mon 21 Sep 2026 | ready |
 | 5 | `facebook-page-vs-website-small-business` | Mon 28 Sep 2026 | ready |
-| 6 | `salon-barbershop-website-booking-massachusetts` | Mon 5 Oct 2026 | needs Roux URL |
+| 6 | `salon-barbershop-website-booking-massachusetts` | Mon 5 Oct 2026 | ready |
 | 7 | `ada-website-compliance-small-business-massachusetts` | Mon 12 Oct 2026 | ready |
 | 8 | `wix-squarespace-or-hand-built-website` | Mon 19 Oct 2026 | ready, paths unverified |
 
-"Ready" means no `[EXTERNAL LINK]` markers remain — set `published: true` and
-rebuild. Posts 3 and 6 both cite the same Roux Software article; one URL
-unblocks both.
+All eight are clear of `[EXTERNAL LINK]` markers — set `published: true` and
+rebuild to release one.
+
+Prices in the posts track the site: setup from $225, care from $45 a month. If
+either number changes, grep `content/posts/` before publishing anything else.
 
 Before publishing each one, check Search Console: if the previous post has not
 been indexed, that is worth knowing before adding another page.
