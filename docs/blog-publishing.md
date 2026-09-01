@@ -104,16 +104,22 @@ Alt text is already written for every suggested image. Keep it.
 
 ## The schedule
 
-| # | Post | Date |
-|---|---|---|
-| 1 | `google-business-profile-setup-massachusetts` | Mon 14 Sep 2026 |
-| 2 | `who-owns-your-website-domain-hosting-access` | Mon 28 Sep 2026 |
-| 3 | `small-business-website-cost-massachusetts` | Mon 12 Oct 2026 |
-| 4 | `what-to-have-ready-before-hiring-web-designer` | Mon 26 Oct 2026 |
-| 5 | `facebook-page-vs-website-small-business` | Mon 9 Nov 2026 |
-| 6 | `salon-barbershop-website-booking-massachusetts` | Mon 23 Nov 2026 |
-| 7 | `ada-website-compliance-small-business-massachusetts` | Mon 7 Dec 2026 |
-| 8 | `wix-squarespace-or-hand-built-website` | Mon 21 Dec 2026 |
+Weekly, Mondays. Post 1 is live.
 
-Dates are already set in each file's front matter. Every post still needs its
-`[EXTERNAL LINK]` markers resolved and `published: true` before it goes live.
+| # | Post | Date | State |
+|---|---|---|---|
+| 1 | `google-business-profile-setup-massachusetts` | Mon 31 Aug 2026 | **live** |
+| 2 | `who-owns-your-website-domain-hosting-access` | Mon 7 Sep 2026 | ready |
+| 3 | `small-business-website-cost-massachusetts` | Mon 14 Sep 2026 | needs Roux URL |
+| 4 | `what-to-have-ready-before-hiring-web-designer` | Mon 21 Sep 2026 | ready |
+| 5 | `facebook-page-vs-website-small-business` | Mon 28 Sep 2026 | ready |
+| 6 | `salon-barbershop-website-booking-massachusetts` | Mon 5 Oct 2026 | needs Roux URL |
+| 7 | `ada-website-compliance-small-business-massachusetts` | Mon 12 Oct 2026 | ready |
+| 8 | `wix-squarespace-or-hand-built-website` | Mon 19 Oct 2026 | ready, paths unverified |
+
+"Ready" means no `[EXTERNAL LINK]` markers remain — set `published: true` and
+rebuild. Posts 3 and 6 both cite the same Roux Software article; one URL
+unblocks both.
+
+Before publishing each one, check Search Console: if the previous post has not
+been indexed, that is worth knowing before adding another page.

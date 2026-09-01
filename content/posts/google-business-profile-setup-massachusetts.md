@@ -9,8 +9,8 @@ keywords:
   - google business profile suspended
   - service area business google maps
   - local seo massachusetts small business
-date: "2026-09-14"
-published: false
+date: "2026-08-31"
+published: true
 schema: "HowTo"
 ---
 

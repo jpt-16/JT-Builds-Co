@@ -8,7 +8,7 @@ keywords:
   - facebook page vs website small business
   - instagram vs website for local business
   - small business website necessary
-date: "2026-11-09"
+date: "2026-09-28"
 published: false
 schema: "FAQPage"
 ---
