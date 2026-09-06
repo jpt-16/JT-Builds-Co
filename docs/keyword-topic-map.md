@@ -42,7 +42,7 @@ Where forums (Reddit, Quora, Facebook groups) hold multiple page-one slots, that
 | Mapped page | `posts/small-business-website-cost-massachusetts.md` → links to `/pricing` |
 | Reasoning | Every ranking page quotes a floor between $1,995 and $7,000. **Nobody on page one serves the owner whose actual budget is $300.** That reader currently bounces to Reddit or Wix. A page that takes the sub-$1,000 tier seriously, without pretending it is the same product as a $10,000 build, has a genuine wedge. |
 
-**This is the single highest-priority post.** It is also the one most likely to attract badly-fit leads, which is a feature if the page is honest about what $225 does and does not include.
+**This is the single highest-priority post.** It is also the one most likely to attract badly-fit leads, which is a feature if the page is honest about what $97 a month does and does not include.
 
 ---
 
@@ -170,7 +170,7 @@ Assumes the eight-post batch ships in September 2026. One post every two weeks, 
 | 9 | Oct 2026 | Why your business shows up on Google Search but not on Google Maps | 3 | Informational → local |
 | 10 | Oct 2026 | What a landscaping or plumbing website actually needs in Massachusetts | 7 / vertical | Commercial |
 | 11 | Nov 2026 | How fast should your website load, and how to find out for free | 6 | Informational (Health Report hook) |
-| 12 | Nov 2026 | Website care plans: what $35 a month should actually buy you | 2 | Comparison |
+| 12 | Nov 2026 | Website care plans: what a monthly website fee should actually buy you | 2 | Comparison |
 | 13 | Dec 2026 | Photos for your website: what to shoot on your phone, and what not to | 7 | Informational |
 | 14 | Dec 2026 | Do you need a website redesign, or just a working one? | 2 | Comparison |
 | 15 | Jan 2027 | Getting reviews without annoying your customers | 3 | Informational |

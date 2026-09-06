@@ -110,7 +110,7 @@ Weekly, Mondays. Post 1 is live.
 |---|---|---|---|
 | 1 | `google-business-profile-setup-massachusetts` | Mon 31 Aug 2026 | **live** |
 | 2 | `who-owns-your-website-domain-hosting-access` | Mon 7 Sep 2026 | ready |
-| 3 | `small-business-website-cost-massachusetts` | Mon 14 Sep 2026 | ready |
+| 3 | `small-business-website-cost-massachusetts` | Mon 14 Sep 2026 | **HOLD** — priced on the old model, needs a rewrite |
 | 4 | `what-to-have-ready-before-hiring-web-designer` | Mon 21 Sep 2026 | ready |
 | 5 | `facebook-page-vs-website-small-business` | Mon 28 Sep 2026 | ready |
 | 6 | `salon-barbershop-website-booking-massachusetts` | Mon 5 Oct 2026 | ready |
@@ -120,8 +120,12 @@ Weekly, Mondays. Post 1 is live.
 All eight are clear of `[EXTERNAL LINK]` markers — set `published: true` and
 rebuild to release one.
 
-Prices in the posts track the site: setup from $225, care from $45 a month. If
-either number changes, grep `content/posts/` before publishing anything else.
+Prices in the posts must track the site: one monthly fee starting at $97, no
+setup fee. One draft — `small-business-website-cost-massachusetts` — was
+written against the old two-number model ($225 setup + $45 a month) and still
+argues it, so it is held back and needs a rewrite rather than a
+find-and-replace. No other draft names a price. Grep `content/posts/` for one
+before publishing anything, and again whenever the fee changes.
 
 Before publishing each one, check Search Console: if the previous post has not
 been indexed, that is worth knowing before adding another page.

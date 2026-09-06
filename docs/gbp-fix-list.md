@@ -47,7 +47,7 @@ Do not add categories for things you do not do. Dilution costs relevance.
 - Opening date: 2026. Do not misstate this.
 - Description, 750 characters. Draft:
 
-> JT Builds Co. is a one-person web design studio in Foxboro, Massachusetts. I build custom websites, logos, booking systems and Google Business Profiles for salons, trades and shops — hand-coded, no templates, no page builders. Every site is tested to WCAG 2.1 AA accessibility standards and delivered within forty-eight hours of sign-off, or the setup fee is waived. Pricing is two numbers: a setup fee from $225 and a monthly plan from $35. You talk to the person building it, start to finish. Serving Foxborough, Mansfield, Walpole, Norton, Attleboro and the surrounding towns, and clients in all fifty states.
+> JT Builds Co. is a one-person web design studio in Foxboro, Massachusetts. I build custom websites, logos, booking systems and Google Business Profiles for salons, trades and shops — hand-coded, no templates, no page builders. Every site is tested to WCAG 2.1 AA accessibility standards. Pricing is one number: a monthly fee starting at $97 that covers the build, hosting, security and updates, with no setup fee and no contract. You talk to the person building it, start to finish. Serving Foxborough, Mansfield, Walpole, Norton, Attleboro and the surrounding towns, and clients in all fifty states.
 
 - Services: list them individually — Website Design, Website Care, Logo & Brand Identity, Google Business Profile Setup, Online Booking Setup, Local SEO, Website Accessibility. Each with a short description. Most competitors leave this empty.
 
