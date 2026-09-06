@@ -54,14 +54,26 @@ If all four come back clean, you are fine. Put a reminder in your calendar for t
 The arrangement you want is simple, and any decent designer will set it up this way without being asked.
 
 - The domain is registered **in your business's name**, with **your email** as the account contact, on **your card**.
-- The hosting account is in your name, or, if it is bundled into a care plan, your contract says plainly that the site and domain move to you on request.
+- The hosting is in your name, or, if it is bundled into a monthly fee, the arrangement says in writing what happens to the site if you stop paying.
 - You have admin access to your own site.
 - Your content is yours, in writing.
 - There is a written answer to "what happens if we part ways."
 
-Hosting being bundled is normal and usually sensible — most owners do not want to manage a server. Bundling is fine. Bundling with no exit is not.
+Hosting being bundled is normal and usually sensible — most owners do not want to manage a server. Bundling is fine. Bundling with no written answer to "what happens if I leave" is not.
 
 The domain is the line I would not cross. Register it yourself, in your own name, before you hire anybody. It costs about $15 and it removes the entire problem permanently.
+
+## Renting or owning: both are fine, if you are told
+
+There are two honest ways to sell a website, and the difference is rarely explained to the person paying.
+
+**You buy it.** You pay a build fee, the files are yours, and you can move the site to any host you like. This is the traditional arrangement. The build fee is usually a few thousand dollars, paid before the site exists.
+
+**You subscribe to it.** You pay monthly, and that fee covers building the site, hosting it and looking after it. It stays online while you keep paying. Squarespace, Wix and Shopify all work this way. So does this studio: nothing is charged up front, and if the subscription stops, the site comes down.
+
+Neither is a trick. Renting a website is not worse than buying one, any more than leasing a van is worse than buying one — it is a different way of spreading the same cost, and for an owner who would rather not find three thousand dollars in one go, it is often the better answer.
+
+What matters is that you know which one you are in before you agree to it, and that your domain and your own material are yours either way. If a studio cannot answer "what happens to the site if I stop paying?" in one plain sentence, that is the problem. The answer itself is not.
 
 ## If you are already locked out
 
@@ -85,7 +97,7 @@ Worth saying, because the villain framing is usually wrong.
 
 Most designers who hold client domains are not planning anything. They set up a registrar account years ago, put everything in it because it was one login instead of forty, and never thought about it again. The problem is structural rather than malicious. It only becomes a problem when the relationship ends — and relationships end for ordinary reasons like retirement, illness, or a career change.
 
-Which is the point. A good arrangement should survive the designer disappearing. Mine is set up so that if I stopped answering the phone tomorrow, every client would still hold their own domain and their own site, and could hand it to somebody else that afternoon.
+Which is the point. A good arrangement should survive the designer disappearing. Mine is set up so that if I stopped answering the phone tomorrow, every client would still hold their own domain, their own words and their own photographs, and could put them in front of another builder the same afternoon. The site I built stays with me, because it was never sold — but nothing that belongs to them is ever tangled up with me.
 
 That is not generosity. It is the minimum. [INTERNAL LINK: /about "Why I run it this way"]
 
