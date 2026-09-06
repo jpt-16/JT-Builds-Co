@@ -75,9 +75,9 @@ That is the whole case for online booking, and it is why the button placement ma
 
 ## What this costs
 
-A salon site with an embedded booking flow, real photos, a staff section and a price list is not a large project. Massachusetts studios commonly quote $2,000 to $8,000 for a small business build ([Webstudio Boston, "Website Design Pricing"](https://www.webstudioboston.com/website-design-pricing-boston-ma-webstudio-boston/)). My setup fee starts at $225 with a $45 monthly plan, and booking is one of the optional add-ons rather than a package tier.
+A salon site with an embedded booking flow, real photos, a staff section and a price list is not a large project. Massachusetts studios commonly quote $2,000 to $8,000 for a small business build ([Webstudio Boston, "Website Design Pricing"](https://www.webstudioboston.com/website-design-pricing-boston-ma-webstudio-boston/)). My fee starts at $97 a month with nothing up front, and booking is one of the optional add-ons rather than a package tier.
 
-[INTERNAL LINK: /pricing "The two numbers"] · [INTERNAL LINK: /services "How booking is set up"]
+[INTERNAL LINK: /pricing "The one number"] · [INTERNAL LINK: /services "How booking is set up"]
 
 I would rather you spend the money on good photographs of your shop than on an elaborate site, and I will say so.
 

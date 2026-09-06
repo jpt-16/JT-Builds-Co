@@ -87,7 +87,7 @@ Get one when any of the following is true: you are competing against businesses 
 
 The reason most owners stall on this is a belief that a website is a $5,000 decision. In Massachusetts it often is — most local studios quote between $2,000 and $8,000. But that is one tier of a market with four of them.
 
-A small hand-built site for a service business is a few hundred dollars and a monthly hosting cost that is less than a phone bill. [INTERNAL LINK: /posts/small-business-website-cost-massachusetts "The full range, tier by tier"] · [INTERNAL LINK: /pricing "What I charge, in two numbers"]
+A small hand-built site for a service business can be under a hundred dollars a month, with nothing up front — less than most phone bills. [INTERNAL LINK: /posts/small-business-website-cost-massachusetts "The full range, tier by tier"] · [INTERNAL LINK: /pricing "What I charge, in one number"]
 
 ## Frequently asked questions
 

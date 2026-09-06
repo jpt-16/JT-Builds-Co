@@ -117,7 +117,7 @@ The Website Health Report checks any business's site and explains what it finds 
 
 [INTERNAL LINK: https://report.jtbuildsco.com/ "Run a free Website Health Report"]
 
-If your site turns out to need work, that is worth knowing either way. [INTERNAL LINK: /posts/small-business-website-cost-massachusetts "What a rebuild costs in Massachusetts"] · [INTERNAL LINK: /pricing "My pricing, in two numbers"]
+If your site turns out to need work, that is worth knowing either way. [INTERNAL LINK: /posts/small-business-website-cost-massachusetts "What a rebuild costs in Massachusetts"] · [INTERNAL LINK: /pricing "My pricing, in one number"]
 
 ---
 

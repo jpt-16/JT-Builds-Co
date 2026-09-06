@@ -10,7 +10,7 @@ keywords:
   - affordable web design massachusetts
   - website design cost boston
 date: "2026-09-14"
-published: false
+published: false  # HOLD: written around the old $225 setup + $45/mo model; needs a rewrite for the single $97/mo fee
 schema: "Article"
 ---
 

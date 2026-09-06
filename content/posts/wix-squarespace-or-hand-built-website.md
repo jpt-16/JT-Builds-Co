@@ -84,9 +84,9 @@ You also get somebody who knows how it works. That cuts both ways — it is an a
 
 Most people assume the choice is $200 a year versus $5,000. In Massachusetts that is often the real gap — local studios commonly quote $2,000 to $8,000 for a build. Against a Squarespace subscription, that is a hard decision to justify for a five-page site.
 
-It is a different decision at a few hundred dollars. My setup fee starts at $225 with a $45 monthly plan, which lands in the same annual territory as a Squarespace subscription with a couple of apps on it. I am not claiming that makes builders obsolete. I am saying the price gap that makes this choice difficult is smaller than most owners assume, and worth checking before defaulting.
+It is a different decision at a few hundred dollars. My fee starts at $97 a month with nothing up front, which lands in the same territory as a Squarespace subscription with a couple of apps on it. I am not claiming that makes builders obsolete. I am saying the price gap that makes this choice difficult is smaller than most owners assume, and worth checking before defaulting.
 
-[INTERNAL LINK: /pricing "The two numbers"] · [INTERNAL LINK: /posts/small-business-website-cost-massachusetts "The whole Massachusetts price range"]
+[INTERNAL LINK: /pricing "The one number"] · [INTERNAL LINK: /posts/small-business-website-cost-massachusetts "The whole Massachusetts price range"]
 
 ## Frequently asked questions
 
