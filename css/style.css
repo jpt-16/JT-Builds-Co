@@ -162,13 +162,11 @@ a.brandmark:hover { opacity: .72; }
 
 .brandmark-sm img { height: 36px; width: auto; }
 
-.masthead-jt {
-  font-family: var(--font-heading);
-  font-weight: var(--font-heading-weight);
-  font-size: clamp(64px, 11vw, 112px);
-  line-height: .88;
-  letter-spacing: -.01em;
-}
+/* The monogram is the JT, so the masthead does not spell it out again. It
+   takes the size the type it replaced occupied, and BUILDS CO. sits under it. */
+.masthead .brandmark { margin-bottom: 4px; }
+
+.masthead .brandmark img { height: clamp(56px, 8.5vw, 100px); }
 
 .masthead-title {
   font-weight: 500;
