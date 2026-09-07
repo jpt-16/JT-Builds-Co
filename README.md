@@ -17,17 +17,54 @@ Multi-page static site sharing one stylesheet:
 - `dashboard.html` + `api/send-review-request.js` + `js/dashboard.js` — internal review-request texting tool, see below
 - `css/style.css` — full stylesheet with design tokens as CSS custom properties, responsive at 960px and 600px breakpoints
 - `assets/work/` — project screenshots for the portfolio
+- `assets/logo-icon.svg` — the JT monogram on its own, white, 96×81; used in the masthead, footer and closing brandmarks. Because it is not square, size it by `height` and leave `width: auto`
+- `assets/logo-lockup.svg` — monogram plus the "BUILDS CO. / WEB & BRAND STUDIO" wordmark; used in the nav bar
+- `assets/logo-mark-purple.svg`, `assets/logo-mark-black.svg`, `assets/logo-lockup-black.svg`, `assets/logo-lockup-large.svg` — the same marks in the other brand colourways, for anything off-site
+- `assets/logo-mark-solid.svg`, `assets/logo-mark-solid-black.svg` — the solid cut, no kerf, for anything under 24px
+- `assets/favicon.png` — 256×256, the solid cut in white on the page ink
 - `assets/og-image.png` — the 1200×630 social preview referenced by every page's Open Graph tags
-- `assets/logo-icon.png` — the "JT" icon mark alone (accent-outlined square, transparent background), cropped from the official lockup export; used in the masthead, footer, and closing brandmarks
-- `assets/logo-lockup.png` — the full horizontal lockup (icon + "BUILDS CO. / WEB & BRAND STUDIO" wordmark), transparent background tuned to sit on the dark page; used in the nav bar
-- `assets/favicon.png` — built from the circular badge export (icon + wordmark on a dark ground), resized for browser chrome
-- `assets/logo-source-lockup.png`, `assets/logo-source-pfp.png` — the original, uncropped exports from the Claude Design logo project; kept as the source of truth if either mark needs re-cropping later
+- `assets/logo-schema.png` — 600×260 on white, used only as `Organization.logo` in the JSON-LD, where search UIs put it on a light ground
+
+All of the above come out of `tools/build-logo.py`. See "The logo" below.
 
 Every page shares the same top bar, masthead, nav (with the current page highlighted via `aria-current="page"`), and a sitewide footer with sitemap links.
 
 ## Theme
 
 The whole site runs on one dark theme rather than a light/dark toggle. `css/style.css` defines full neutral and accent tonal ramps (`--color-neutral-100..900`, `--color-accent-100..900`) as CSS custom properties, plus a compact spacing scale (`--space-1..8`) and radius/shadow tokens. Full-bleed section dividers (topbar, masthead, nav, hero, etc.) fade to transparent at their ends via a gradient background layered on a pseudo-element, rather than a hard `border`; smaller list-internal dividers (FAQ rows, pricing rows) stay solid. Buttons are accent-outlined on a transparent fill, not solid-filled.
+
+## The logo
+
+The mark is a single piece of geometry on a 96×81 grid: a vertical spine, a
+crossbar across the top, and a foot that turns off the bottom and rises again.
+The T is the spine and the bar; the J is the spine and the foot. Both joints are
+cut by a 45° kerf.
+
+`tools/build-logo.py` generates every logo file from that one path. It is a dev
+tool — the site does not run it and neither does Vercel, which serves the
+committed output as-is. You only need it if the mark, the wordmark or the brand
+colours change.
+
+```bash
+pip install fonttools brotli uharfbuzz
+curl -sS "https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" \
+  -H "User-Agent: Mozilla/5.0 Chrome/120"        # find the latin woff2 URL in the output
+curl -sS -o tools/inter-latin.woff2 "<that URL>"
+python3 tools/build-logo.py
+```
+
+The wordmark is converted to outlines at build time, so the SVGs carry no font
+dependency and render the same inside `<img>`, in email, and in anything that
+does not load webfonts. Inter is not committed here; the script tells you where
+to get it.
+
+Two rules the files already encode, worth keeping if you edit them by hand:
+
+- **Below about 24px the kerf closes up and reads as dirt**, so the favicon and
+  the nav lockup use the solid cut instead. The symbol inside the nav lockup
+  lands at roughly 20px.
+- **The mark is 96×81, not square.** Size it by height with `width: auto`; the
+  brandmark rules in `css/style.css` already do.
 
 ## Adding a project to Selected Work
 

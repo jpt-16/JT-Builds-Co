@@ -155,11 +155,12 @@ h1, h2, h3 {
 
 a.brandmark:hover { opacity: .72; }
 
-.brandmark img { display: block; width: 54px; height: 54px; }
+/* the monogram is 96x81, so height leads and width follows */
+.brandmark img { display: block; height: 54px; width: auto; }
 
 .brandmark-sm { margin: 0 0 16px; }
 
-.brandmark-sm img { width: 36px; height: 36px; }
+.brandmark-sm img { height: 36px; width: auto; }
 
 .masthead-jt {
   font-family: var(--font-heading);
@@ -1184,7 +1185,7 @@ a.brandmark:hover { opacity: .72; }
 
 .closing .brandmark { margin-bottom: 28px; }
 
-.brandmark-lg img { width: 71px; height: 71px; }
+.brandmark-lg img { height: 71px; width: auto; }
 
 .closing h2 {
   font-size: clamp(36px, 5.6vw, 56px);

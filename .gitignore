@@ -2,3 +2,6 @@
 .env.*
 .vercel/
 node_modules/
+
+# fetched by tools/build-logo.py; not redistributed here
+tools/inter-latin.woff2
