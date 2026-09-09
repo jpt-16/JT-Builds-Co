@@ -5,6 +5,10 @@
   },
   "scripts": {
     "blog": "node tools/build-blog.js",
-    "blog:check": "node tools/build-blog.js --check"
+    "blog:check": "node tools/build-blog.js --check",
+    "llms": "node tools/build-llms.js",
+    "llms:check": "node tools/build-llms.js --check",
+    "generate": "npm run blog && npm run llms",
+    "check": "npm run blog:check && npm run llms:check"
   }
 }

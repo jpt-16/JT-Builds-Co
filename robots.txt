@@ -5,3 +5,8 @@ Disallow: /dashboard.html
 Disallow: /api/
 
 Sitemap: https://jtbuildsco.com/sitemap.xml
+
+# Written for machines: what this business does, and a Markdown mirror of every
+# page. Each page is also available at the same path with a .md extension.
+# https://jtbuildsco.com/llms.txt
+# https://jtbuildsco.com/llms-full.txt

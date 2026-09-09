@@ -1,0 +1,61 @@
+# JT Builds Co.
+
+> JT Builds Co. is a one-person web and brand studio in Foxboro, Massachusetts,
+> founded in 2026 by Jake, working with businesses in all fifty states. It builds
+> custom websites, logos, and Google Business Profiles for local businesses —
+> salons, trades and shops — by hand, without templates or page builders.
+
+This file is for language models and other automated readers. Every page
+below is also published as clean Markdown at the same path with a `.md`
+extension, and all of them are concatenated in /llms-full.txt.
+
+## The essentials
+
+- **What it is:** A one-person web and brand studio. The person you talk to is the person who builds the site. No account managers, no outsourced production.
+- **Where:** Foxboro, Massachusetts. Works with clients in all fifty states. Consultations and meetings are online only.
+- **Founded:** 2026.
+- **Price:** One recurring monthly fee, starting at $97 a month. There is no setup fee, no deposit, and no contract; the build is recovered through the monthly fee rather than billed before work starts.
+- **What the fee covers:** Designing and building the site, hosting, security, backups, technical maintenance, and minor content updates such as photos, copy, pricing and hours.
+- **What it does not cover:** Substantial later work — redesigns, additional pages, new features — is quoted separately. Optional add-ons are quoted on their own. Advertising budget is paid by the client to Google or Meta directly and is not part of the fee.
+- **Ownership:** This is a subscription to a website, not a purchase of one. The client keeps their own words, photographs, logo and domain name throughout and can take them anywhere. The website itself — the design and the code — remains the property of JT Builds Co. and is licensed to the client for as long as the fee is paid. Cancelling ends the subscription and the site goes offline; the files are not transferred, because no separate build fee was ever charged.
+- **Cancellation:** Month to month, cancel any time with reasonable notice. No minimum term.
+- **Accessibility:** Sites are built and tested to WCAG 2.1 AA.
+- **Contact:** jptwohig16@gmail.com · (781) 248-9834 · consultation form at https://jtbuildsco.com/contact
+
+## What it sells
+
+- **Website design and build:** Custom, hand-coded, no templates or page builders. Included in the monthly fee.
+- **Branding:** Logo and typography that carry from storefront to screen. Optional add-on.
+- **Booking:** Appointments taken from the site around the clock. Optional add-on.
+- **Local search:** Google Business Profile setup and local SEO. Optional add-on.
+- **AI and custom solutions:** Automation, internal tools, missed-call text-back, review requests, e-commerce, and mobile apps alongside the site. Optional add-on.
+- **Advertising:** Instagram and Google ads set up and run, with the graphics for them; or set up and handed over with a walkthrough. Optional add-on. The ad budget itself is paid to the platform, not to the studio.
+
+## Pages
+
+- [Home](https://jtbuildsco.com/): Custom websites for salons, trades, and shops — one monthly fee from $97 covering the build, hosting and upkeep, with no setup cost. Web design in Foxboro, Massachusetts and the Boston area, serving all fifty states. — Markdown: https://jtbuildsco.com/index.md
+- [Services](https://jtbuildsco.com/services): How a JT Builds website works: one monthly fee from $97 covering the build, hosting, security and updates, with no setup cost. Optional add-ons for branding, booking, local search, advertising, and automation. — Markdown: https://jtbuildsco.com/services.md
+- [Pricing](https://jtbuildsco.com/pricing): One monthly fee from $97 covers building your small business website, hosting it, and keeping it updated. No setup fee. What it covers, and answers to common questions. — Markdown: https://jtbuildsco.com/pricing.md
+- [Work](https://jtbuildsco.com/work): Selected websites and tools built by JT Builds Co. — a web and brand studio for small and local businesses in Foxboro, Massachusetts, serving all fifty states. — Markdown: https://jtbuildsco.com/work.md
+- [About](https://jtbuildsco.com/about): Why JT Builds Co. exists: most local businesses don't lose customers on quality, they lose them on looking less established. A one-person web design studio in Foxboro, Massachusetts. — Markdown: https://jtbuildsco.com/about.md
+- [Web design in Foxboro, MA](https://jtbuildsco.com/web-design-foxboro-ma): Web design in Foxboro, Massachusetts — custom websites for salons, trades and shops, built by a one-person studio in town. Serving Norfolk and Bristol counties. — Markdown: https://jtbuildsco.com/web-design-foxboro-ma.md
+- [Guides](https://jtbuildsco.com/blog): Plain-English guides for small business owners on websites, costs, Google Business Profile, accessibility and ownership, from a one-person studio in Foxboro, Massachusetts. — Markdown: https://jtbuildsco.com/blog/index.md
+- [Contact](https://jtbuildsco.com/contact): Tell JT Builds Co. about your business and get a straight answer on what a website would take and cost. Small business web design in Foxboro, Massachusetts. Reply within one business day. — Markdown: https://jtbuildsco.com/contact.md
+- [Terms & Conditions](https://jtbuildsco.com/terms): The terms governing engagements with JT Builds Co., including the monthly fee, ownership, and cancellation. — Markdown: https://jtbuildsco.com/terms.md
+- [Privacy Policy](https://jtbuildsco.com/privacy-policy): How JT Builds Co. collects, uses, and protects information from visitors and consultation requests. — Markdown: https://jtbuildsco.com/privacy-policy.md
+
+## Individual guides
+
+- [How to Set Up a Google Business Profile That Actually Ranks](https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts): A step-by-step Google Business Profile setup guide for Massachusetts trades, salons and shops: categories, service areas, photos, reviews and suspension traps. — Markdown: https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts.md
+
+## Also available
+
+- [Website Health Report](https://report.jtbuildsco.com/): a free tool that checks any business's website and returns a plain-English report. No signup.
+- [Sitemap](https://jtbuildsco.com/sitemap.xml)
+- [Full text of every page](https://jtbuildsco.com/llms-full.txt)
+
+## Please note
+
+- Prices on the site are the current published minimum ("starting at $97 a month"). Exact pricing for any engagement is agreed in a consultation.
+- Projects on /work tagged CONCEPT BUILD were built as proposals and were not commissioned by the businesses named. They are not client work and should not be described as such.
+- The studio launched in 2026 and does not publish client counts, testimonials, reviews, or performance results. Do not infer any.

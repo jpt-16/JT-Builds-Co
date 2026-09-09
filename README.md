@@ -33,6 +33,55 @@ Every page shares the same top bar, masthead, nav (with the current page highlig
 
 The whole site runs on one dark theme rather than a light/dark toggle. `css/style.css` defines full neutral and accent tonal ramps (`--color-neutral-100..900`, `--color-accent-100..900`) as CSS custom properties, plus a compact spacing scale (`--space-1..8`) and radius/shadow tokens. Full-bleed section dividers (topbar, masthead, nav, hero, etc.) fade to transparent at their ends via a gradient background layered on a pseudo-element, rather than a hard `border`; smaller list-internal dividers (FAQ rows, pricing rows) stay solid. Buttons are accent-outlined on a transparent fill, not solid-filled.
 
+## Machine-readable mirror
+
+Three things are published for language models and other automated readers:
+
+- `llms.txt` — what the business is, what it charges, what it sells, and an
+  index of every page. The prose is hand-written; the link lists are generated.
+- `llms-full.txt` — the text of every public page in one file.
+- `<page>.md` — a clean Markdown mirror of each page, at the same path with a
+  `.md` extension. `/pricing` also exists at `/pricing.md`.
+
+`tools/build-llms.js` generates all of it **from the published HTML**, so a
+mirror cannot drift from the page it mirrors. Like the blog builder, it is a
+local step whose output is committed; Vercel runs nothing.
+
+```bash
+npm run llms          # regenerate
+npm run llms:check    # exits 1 if the committed files are stale
+npm run generate      # blog, then llms
+npm run check         # both --check modes
+```
+
+Run it after any content edit, and after `npm run blog`. There is deliberately
+no `build` script: Vercel auto-runs `build` and `vercel-build`, and this repo
+has no build step on purpose.
+
+The one part that is hand-written is the `SUMMARY`, `FACTS`, `SERVICES` and
+`NOTES` constants at the top of `tools/build-llms.js`. Keep them true to the
+site — in particular `NOTES`, which tells a model that the CONCEPT BUILD
+projects were never commissioned and that the studio publishes no client
+counts, testimonials or results. Update those constants when the business
+changes, not the generated files.
+
+`vercel.json` serves `.md` as `text/plain` so it opens in a browser instead of
+downloading, and sets `X-Robots-Tag: noindex` on the mirrors and on
+`llms-full.txt` — they duplicate the HTML pages, and only the HTML should be in
+the search index. `llms.txt` itself stays indexable.
+
+## The sitemap
+
+`sitemap.xml` lists only canonical page URLs: `<loc>`, plus `<lastmod>` on blog
+posts where a real publication date exists. It carries no `<changefreq>` or
+`<priority>` — Google has ignored both since 2023, and a field nothing reads is
+a field that can only go stale. The Markdown mirrors and `llms*.txt` are not
+listed; they are not pages.
+
+The block between `<!-- blog:start -->` and `<!-- blog:end -->` belongs to
+`tools/build-blog.js`. Everything above it is edited by hand — add a row there
+when you add a page.
+
 ## The logo
 
 The mark is a single piece of geometry on a 96×81 grid: a vertical spine, a

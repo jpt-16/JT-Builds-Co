@@ -1,0 +1,18 @@
+# Files that belong in the repository but not on the website.
+#
+# Everything here was being served publicly: the unpublished blog drafts in
+# content/, the SEO and Google Business Profile notes in docs/, and the build
+# tooling. The published site is the HTML, the Markdown mirrors, the assets,
+# and the serverless function — nothing else.
+#
+# Deployment is unaffected: Vercel runs no build step, so nothing here is
+# needed at deploy time. package.json is deliberately NOT listed — Vercel
+# already keeps it out of the served output, and it declares the Node version
+# for the api/ function. Verify after deploying that these return 404.
+
+content/
+docs/
+tools/
+
+README.md
+SETUP.md

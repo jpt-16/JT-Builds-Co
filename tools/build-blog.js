@@ -467,15 +467,18 @@ function loadPost(file) {
 
 /* ---------- sitemap ---------- */
 
+/* Only <loc> and, for posts, <lastmod>. Google has ignored <changefreq> and
+   <priority> since 2023 and says so outright, and a field nothing reads is a
+   field that can only go stale. */
 function updateSitemap(posts) {
   const START = '  <!-- blog:start -->';
   const END = '  <!-- blog:end -->';
   let xml = fs.readFileSync(SITEMAP, 'utf8');
   const block = [
     START,
-    `  <url>\n    <loc>${SITE}/blog</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n  </url>`,
+    `  <url>\n    <loc>${SITE}/blog</loc>\n  </url>`,
     ...posts.map((p) =>
-      `  <url>\n    <loc>${SITE}/blog/${p.slug}</loc>${p.date ? `\n    <lastmod>${p.date}</lastmod>` : ''}\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>`),
+      `  <url>\n    <loc>${SITE}/blog/${p.slug}</loc>${p.date ? `\n    <lastmod>${p.date}</lastmod>` : ''}\n  </url>`),
     END,
   ].join('\n');
 
