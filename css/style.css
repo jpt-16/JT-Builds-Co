@@ -1277,16 +1277,83 @@ a.brandmark:hover { opacity: .72; }
   border: none;
   margin: 44px 0 0;
   padding: 0;
+  /* a fieldset defaults to min-inline-size:min-content and will not shrink
+     below its widest child; without this the services row grows past the form */
+  min-width: 0;
 }
 
 .consult-form > .field {
   margin-top: 44px;
 }
 
+/* Services picker. A native <details>, so it opens on click and the checked
+   boxes still submit whether or not the script runs — and the closed state
+   never hides a choice from the form, only from view. */
+.svc-select { margin: 0; }
+
+.svc-summary {
+  display: block;
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 2px;
+  border-bottom: 1px solid var(--color-divider-strong);
+  transition: border-color .25s;
+}
+
+.svc-summary::-webkit-details-marker { display: none; }
+
+.svc-summary:hover { border-bottom-color: var(--color-accent-500); }
+
+.svc-summary:focus-visible {
+  outline: 2px solid var(--color-accent-500);
+  outline-offset: 3px;
+}
+
+.svc-select[open] .svc-summary { border-bottom-color: var(--color-accent-500); }
+
+.svc-summary-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* the chosen services, or the placeholder; truncated rather than wrapped.
+   min-width:0 is load-bearing — without it this flex item refuses to shrink
+   below its text, the row grows past the form, and the chevron is pushed off
+   the screen once a few long services are picked. */
+.svc-summary-text {
+  min-width: 0;
+  font-size: 16px;
+  color: var(--color-text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.svc-summary-text[data-empty] { color: var(--color-muted); }
+
+.svc-summary-inner::after {
+  content: "";
+  flex: none;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  border-right: 1.5px solid var(--color-accent-500);
+  border-bottom: 1.5px solid var(--color-accent-500);
+  transform: translateY(-2px) rotate(45deg);
+  transition: transform .25s var(--ease);
+}
+
+.svc-select[open] .svc-summary-inner::after {
+  transform: translateY(2px) rotate(-135deg);
+}
+
 .svc-pills {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+  padding-top: 20px;
 }
 
 .svc-pill input {

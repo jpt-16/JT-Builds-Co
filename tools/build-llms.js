@@ -156,6 +156,11 @@ function decode(s) {
   });
 }
 
+function contains(node, pred) {
+  if (pred(node)) return true;
+  return (node.children || []).some((c) => contains(c, pred));
+}
+
 function find(node, pred) {
   if (pred(node)) return node;
   for (const c of node.children || []) {
@@ -267,7 +272,17 @@ function blocks(node, depth) {
       case 'details': {
         const sum = (c.children || []).find((k) => k.tag === 'summary');
         const rest = { children: (c.children || []).filter((k) => k.tag !== 'summary') };
-        if (sum) push('#'.repeat(Math.min(6, 3 + depth)) + ' ' + tidy(inline(sum)));
+        // An FAQ entry's summary is a question and reads as a heading. A
+        // disclosure wrapping form controls is a picker, and its summary is a
+        // placeholder — making that a heading would invent a question.
+        if (sum) {
+          const label = tidy(inline(sum));
+          if (label) {
+            push(contains(c, (k) => k.tag === 'input')
+              ? `*${label}*`
+              : '#'.repeat(Math.min(6, 3 + depth)) + ' ' + label);
+          }
+        }
         blocks(rest, depth).split('\n\n').forEach(push);
         break;
       }
@@ -281,9 +296,19 @@ function blocks(node, depth) {
         // A wrapper holding only inline content reads as one paragraph; a
         // wrapper holding other blocks is just structure, so recurse.
         const nested = (c.children || []).some((k) => BLOCK.has(k.tag));
-        if (nested) {
+        if (hasClass(c, 'svc-pills')) {
+          const opts = (c.children || [])
+            .filter((k) => k.tag === 'label')
+            .map((k) => tidy(inline(k))).filter(Boolean);
+          if (opts.length) push(opts.map((o) => '- ' + o).join('\n'));
+        } else if (nested) {
           const inner = blocks(c, depth);
           if (inner) out.push(inner);
+        } else if (hasClass(c, 'svc-pills')) {
+          const opts = (c.children || [])
+            .filter((k) => k.tag === 'label')
+            .map((k) => tidy(inline(k))).filter(Boolean);
+          if (opts.length) push(opts.map((o) => '- ' + o).join('\n'));
         } else if (hasClass(c, 'work-meta')) {
           const tags = (c.children || [])
             .filter((k) => k.tag === 'span')
