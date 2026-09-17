@@ -1,6 +1,6 @@
 # Web Design in Foxboro, Massachusetts
 
-> Web design in Foxboro, Massachusetts — custom websites for salons, trades and shops, built by a one-person studio in town. Serving Norfolk and Bristol counties.
+> Web design in Foxboro, Massachusetts — custom websites for plumbers, landscapers, detailers and any other small business, built by a one-person studio in town. Serving Norfolk and Bristol counties.
 
 Source: https://jtbuildsco.com/web-design-foxboro-ma
 Part of: https://jtbuildsco.com/llms.txt
@@ -72,7 +72,7 @@ No. Foxboro is where the studio is based. Clients are served in all fifty states
 
 ### What kinds of local businesses is this for?
 
-Salons and barbershops, trades and contractors, and small shops — the businesses where a customer picks one of three search results and never calls the other two. If you have a Google listing and no real website, or a website you're embarrassed to send people to, that's the situation this is built for.
+Plumbers, landscapers, detailers, contractors — the trades where a customer picks one of three search results and never calls the other two. That's where the problem bites hardest, not where it stops. If you have a Google listing and no real website, or a website you're embarrassed to send people to, that's the situation this is built for, whatever the business does.
 
 ### Do we need to meet in person?
 

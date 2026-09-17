@@ -46,7 +46,8 @@ const PAGES = [
 const SUMMARY = `JT Builds Co. is a one-person web and brand studio in Foxboro, Massachusetts,
 founded in 2026 by Jake, working with businesses in all fifty states. It builds
 custom websites, logos, and Google Business Profiles for local businesses —
-salons, trades and shops — by hand, without templates or page builders.`;
+most often plumbers, landscapers, detailers and other trades, though it works for
+any business — by hand, without templates or page builders.`;
 
 const FACTS = [
   ['What it is', 'A one-person web and brand studio. The person you talk to is the person who builds the site. No account managers, no outsourced production.'],

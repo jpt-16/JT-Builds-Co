@@ -35,7 +35,7 @@ Based FOXBORO, MA
 
 Meetings ONLINE
 
-Works with SALONS, TRADES & SHOPS
+Works with TRADES & ANY SMALL BUSINESS
 
 Builds SITES, LOGOS & MORE
 

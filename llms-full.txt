@@ -3,7 +3,8 @@
 > JT Builds Co. is a one-person web and brand studio in Foxboro, Massachusetts,
 > founded in 2026 by Jake, working with businesses in all fifty states. It builds
 > custom websites, logos, and Google Business Profiles for local businesses —
-> salons, trades and shops — by hand, without templates or page builders.
+> most often plumbers, landscapers, detailers and other trades, though it works for
+> any business — by hand, without templates or page builders.
 
 Every public page of https://jtbuildsco.com, in one file. Generated from the published
 pages; see /llms.txt for a short index.
@@ -110,7 +111,7 @@ One number, not a menu. $97 a month covers the build, the hosting and the lookin
 
 ### Built for small business
 
-Not scaled-down agency work. Sites for salons, trades, and shops — businesses that need a call, a booking, or a walk-in. Not a brand campaign.
+Not scaled-down agency work. Sites for plumbers, landscapers, detailers — any business that needs a call, a booking, or a walk-in. Not a brand campaign.
 
 ### You talk to the person building it
 
@@ -428,7 +429,7 @@ Based FOXBORO, MA
 
 Meetings ONLINE
 
-Works with SALONS, TRADES & SHOPS
+Works with TRADES & ANY SMALL BUSINESS
 
 Builds SITES, LOGOS & MORE
 
@@ -509,7 +510,7 @@ No. Foxboro is where the studio is based. Clients are served in all fifty states
 
 ### What kinds of local businesses is this for?
 
-Salons and barbershops, trades and contractors, and small shops — the businesses where a customer picks one of three search results and never calls the other two. If you have a Google listing and no real website, or a website you're embarrassed to send people to, that's the situation this is built for.
+Plumbers, landscapers, detailers, contractors — the trades where a customer picks one of three search results and never calls the other two. That's where the problem bites hardest, not where it stops. If you have a Google listing and no real website, or a website you're embarrassed to send people to, that's the situation this is built for, whatever the business does.
 
 ### Do we need to meet in person?
 

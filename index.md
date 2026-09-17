@@ -1,6 +1,6 @@
 # Stop losing customers to businesses that just look better online.
 
-> Custom websites for salons, trades, and shops — one monthly fee from $97 covering the build, hosting and upkeep, with no setup cost. Web design in Foxboro, Massachusetts and the Boston area, serving all fifty states.
+> Custom websites for plumbers, landscapers, detailers and any other small business — one monthly fee from $97 covering the build, hosting and upkeep, with no setup cost. Web design in Foxboro, Massachusetts and the Boston area, serving all fifty states.
 
 Source: https://jtbuildsco.com/
 Part of: https://jtbuildsco.com/llms.txt
@@ -103,7 +103,7 @@ One number, not a menu. $97 a month covers the build, the hosting and the lookin
 
 ### Built for small business
 
-Not scaled-down agency work. Sites for salons, trades, and shops — businesses that need a call, a booking, or a walk-in. Not a brand campaign.
+Not scaled-down agency work. Sites for plumbers, landscapers, detailers — any business that needs a call, a booking, or a walk-in. Not a brand campaign.
 
 ### You talk to the person building it
 
