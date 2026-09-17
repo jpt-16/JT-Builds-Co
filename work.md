@@ -21,13 +21,13 @@ A mobile detailer who works on the customer's driveway, so the site is built aro
 
 [VISIT SITE →](https://cloverdownsdetailing.com)
 
-`FAMILY BUSINESS` · `SPORTS MEMORABILIA` · `ONLINE STORE`
+`FAMILY BUSINESS` · `SPORTS MEMORABILIA` · `LAUNCHING SOON`
 
 ### Panda Sports Memorabilia
 
-WEBSITE · ONLINE STORE
+WEBSITE · PRE-LAUNCH
 
-A sports memorabilia business my family and I run — cards and signed pieces bought and resold under what the big sellers ask, with ten percent of proceeds going to cancer research. Ours rather than a client's, so it is listed as what it is; the site itself is built and looked after exactly the way a client's would be.
+A family business — four of us — reselling signed jerseys, balls, game-used gear and photography at one fixed price: no auction, no buyer's premium, and ten percent of every sale to cancer research. Still pre-launch, so the site's job is to explain how each piece is checked and gather the first subscribers. Ours rather than a client's, so it is listed as what it is.
 
 [VISIT SITE →](https://www.pandasportsmemorabilia.com/)
 
