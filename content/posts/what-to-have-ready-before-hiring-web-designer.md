@@ -8,8 +8,8 @@ keywords:
   - questions to ask a web designer
   - preparing content for a website
   - website project checklist
-date: "2026-09-21"
-published: false
+date: "2026-09-17"
+published: true
 schema: "HowTo"
 ---
 

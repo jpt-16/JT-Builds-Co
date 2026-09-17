@@ -1,19 +1,17 @@
----
-title: "Who Owns Your Website? Domain, Hosting and Access Explained"
-description: "Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and exactly what to do if a web designer will not give you access."
-slug: "who-owns-your-website-domain-hosting-access"
-keywords:
-  - who owns my website
-  - web designer wont give me access to my website
-  - who owns my domain name
-  - transfer domain from web designer
-  - do i own my website if someone else built it
-date: "2026-09-17"
-published: true
-schema: "Article"
+# Who Owns Your Website? Domain, Hosting and Access Explained
+
+> Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and exactly what to do if a web designer will not give you access.
+
+Source: https://jtbuildsco.com/blog/who-owns-your-website-domain-hosting-access
+Part of: https://jtbuildsco.com/llms.txt
+
 ---
 
-# Who Owns Your Website? Domain, Hosting and Access Explained
+[&larr; GUIDES](https://jtbuildsco.com/blog)
+
+17 September 2026 · 8 min read
+
+Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and exactly what to do if a web designer will not give you access.
 
 The worst phone call in this trade is the one that starts "my old web guy has stopped answering, and I can't get into my own site."
 
@@ -87,7 +85,7 @@ It is recoverable more often than people assume. In order:
 
 **Get a lawyer's letter.** Often less expensive than people expect, and frequently enough on its own. I am not a lawyer and this is not legal advice — if real money or a long-established domain is involved, speak to one properly.
 
-**Consider the nuclear option.** If the domain is genuinely gone and recovery would take months, a new domain and a rebuilt site can be faster and cheaper. You lose search history and printed materials go stale, which is a real cost. Sometimes it is still the right call. [INTERNAL LINK: /posts/small-business-website-cost-massachusetts "What a rebuild costs in Massachusetts"]
+**Consider the nuclear option.** If the domain is genuinely gone and recovery would take months, a new domain and a rebuilt site can be faster and cheaper. You lose search history and printed materials go stale, which is a real cost. Sometimes it is still the right call. What a rebuild costs in Massachusetts
 
 What not to do: stop paying and hope. An expired domain can be bought by anybody, including someone who will sell it back to you for a great deal more than $15.
 
@@ -99,72 +97,30 @@ Most designers who hold client domains are not planning anything. They set up a 
 
 Which is the point. A good arrangement should survive the designer disappearing. Mine is set up so that if I stopped answering the phone tomorrow, every client would still hold their own domain, their own words and their own photographs, and could put them in front of another builder the same afternoon. The site I built stays with me, because it was never sold — but nothing that belongs to them is ever tangled up with me.
 
-That is not generosity. It is the minimum. [INTERNAL LINK: /about "Why I run it this way"]
+That is not generosity. It is the minimum. [Why I run it this way](https://jtbuildsco.com/about)
 
 ## Frequently asked questions
 
-**Who owns my website if someone else built it?**
-It depends on four separate things — the domain registration, the hosting account, the site files, and your content — and they can be held by different parties. Check the WHOIS registrant on your domain and whether you can log into the registrar and hosting accounts yourself.
+**Who owns my website if someone else built it?** It depends on four separate things — the domain registration, the hosting account, the site files, and your content — and they can be held by different parties. Check the WHOIS registrant on your domain and whether you can log into the registrar and hosting accounts yourself.
 
-**My web designer will not give me access to my website. What can I do?**
-Request the domain authorisation code and account access in writing with a deadline. Check your contract and invoices for evidence of ownership. Contact the registrar directly, which can help if the registration is already in your business's name. A lawyer's letter is often the next step and frequently resolves it.
+**My web designer will not give me access to my website. What can I do?** Request the domain authorisation code and account access in writing with a deadline. Check your contract and invoices for evidence of ownership. Contact the registrar directly, which can help if the registration is already in your business's name. A lawyer's letter is often the next step and frequently resolves it.
 
-**How do I find out who owns my domain name?**
-Run a free WHOIS lookup on your domain and check the registrant details. If privacy protection hides them, note the registrar and try to log into that registrar with an email address you control.
+**How do I find out who owns my domain name?** Run a free WHOIS lookup on your domain and check the registrant details. If privacy protection hides them, note the registrar and try to log into that registrar with an email address you control.
 
-**Should my web designer register my domain for me?**
-It is fine for them to do it on your behalf, but it should be registered in your business's name with your email as the account contact. If it is registered in the designer's name, you do not control your own web address.
+**Should my web designer register my domain for me?** It is fine for them to do it on your behalf, but it should be registered in your business's name with your email as the account contact. If it is registered in the designer's name, you do not control your own web address.
 
-**What happens to my website if my web designer disappears?**
-If you hold the domain and hosting accounts, very little — another developer can take over. If the designer holds them, your site can go offline when the accounts lapse and recovery can take weeks. This is the reason to check before there is a problem.
+**What happens to my website if my web designer disappears?** If you hold the domain and hosting accounts, very little — another developer can take over. If the designer holds them, your site can go offline when the accounts lapse and recovery can take weeks. This is the reason to check before there is a problem.
 
 ## Check where you stand
 
 If you are not sure what condition your current site is in, or who is hosting it, start with the free Website Health Report. It reads any business's site and explains the results in plain English.
 
-[INTERNAL LINK: https://report.jtbuildsco.com/ "Run a free Website Health Report"]
+[Run a free Website Health Report](https://report.jtbuildsco.com/)
 
-And if you have decided to move on from a site you cannot control, I can tell you honestly whether it is worth rebuilding. [INTERNAL LINK: /contact "Request a free consultation"] · [INTERNAL LINK: /posts/what-to-have-ready-before-hiring-web-designer "What to gather before you hire anyone"]
+And if you have decided to move on from a site you cannot control, I can tell you honestly whether it is worth rebuilding. [Request a free consultation](https://jtbuildsco.com/contact) · [What to gather before you hire anyone](https://jtbuildsco.com/blog/what-to-have-ready-before-hiring-web-designer)
 
----
+## Want a straight answer about your own site?
 
-## Image suggestions
+Tell me what your business needs and I'll reply personally within one business day.
 
-1. **Hero.** A WHOIS lookup result on a laptop screen with the registrant field visible. Alt text: "A WHOIS lookup showing the registrant details for a small business domain name."
-2. **After the four-things section.** A diagram of the four separate components of a website and who typically holds each. Alt text: "Diagram showing the domain, hosting, site files and content as four separately owned parts of a website."
-3. **In the checklist section.** A domain renewal reminder on a phone calendar. Alt text: "A calendar reminder on a phone for a domain name renewal date."
-
----
-
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Who Owns Your Website? Domain, Hosting and Access Explained",
-  "description": "Who really owns your website, domain and hosting, how to check today in ten minutes, and what to do if a web designer will not give you access.",
-  "author": {
-    "@type": "Person",
-    "name": "Jake",
-    "jobTitle": "Founder",
-    "worksFor": {
-      "@type": "LocalBusiness",
-      "name": "JT Builds Co.",
-      "url": "https://jtbuildsco.com"
-    }
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "JT Builds Co.",
-    "url": "https://jtbuildsco.com"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://jtbuildsco.com/blog/who-owns-your-website-domain-hosting-access"
-  },
-  "about": {
-    "@type": "Thing",
-    "name": "Website and domain name ownership"
-  },
-  "disambiguatingDescription": "General information only. Not legal advice."
-}
-```
+[REQUEST A FREE CONSULTATION](https://jtbuildsco.com/contact)

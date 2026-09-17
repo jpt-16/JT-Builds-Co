@@ -57,7 +57,12 @@ not exist at all.
 
 These are **not** in the pages yet, deliberately: each one points at a post that
 is still held back, and a live page must not link to a 404. Add the matching row
-when you publish that post.
+when you publish that post. Struck-through rows are already in place.
+
+The ownership row originally pointed at `/about`, near the words "The site is
+yours". That sentence no longer exists — it went when ownership was reframed as
+a subscription — so the link went to the `/pricing` FAQ that asks the same
+question instead, which is the better home for it anyway.
 
 | Publish this post | Add this link | To this page | Anchor text |
 |---|---|---|---|
@@ -66,7 +71,7 @@ when you publish that post.
 | `google-business-profile-setup-massachusetts` | `/blog/google-business-profile-setup-massachusetts` | `/services`, Local Search add-on | How a Google Business Profile is set up |
 | `salon-barbershop-website-booking-massachusetts` | `/blog/salon-barbershop-website-booking-massachusetts` | `/services`, Booking add-on | What an appointment business needs |
 | `ada-website-compliance-small-business-massachusetts` | `/blog/ada-website-compliance-small-business-massachusetts` | `/services`, Accessibility in Step One | What accessibility means in practice |
-| `who-owns-your-website-domain-hosting-access` | `/blog/who-owns-your-website-domain-hosting-access` | `/about`, near "The site is yours" | Who owns the site once it is built |
+| ~~`who-owns-your-website-domain-hosting-access`~~ | done | `/pricing`, "Do I own the website?" | Who owns the site once it is built |
 | `google-business-profile-setup-massachusetts` | `/blog/google-business-profile-setup-massachusetts` | `/web-design-foxboro-ma`, Google Maps FAQ | Getting found on Google Maps locally |
 | `salon-barbershop-website-booking-massachusetts` | `/blog/salon-barbershop-website-booking-massachusetts` | `/work`, beside Clover Downs | What a booking-driven site needs |
 
@@ -104,21 +109,28 @@ Alt text is already written for every suggested image. Keep it.
 
 ## The schedule
 
-Weekly, Mondays. Post 1 is live.
+Weekly-ish. Three are live.
 
 | # | Post | Date | State |
 |---|---|---|---|
-| 1 | `google-business-profile-setup-massachusetts` | Mon 31 Aug 2026 | **live** |
-| 2 | `who-owns-your-website-domain-hosting-access` | Mon 7 Sep 2026 | ready |
-| 3 | `small-business-website-cost-massachusetts` | Mon 14 Sep 2026 | **HOLD** — priced on the old model, needs a rewrite |
-| 4 | `what-to-have-ready-before-hiring-web-designer` | Mon 21 Sep 2026 | ready |
+| 1 | `google-business-profile-setup-massachusetts` | 31 Aug 2026 | **live** |
+| 2 | `who-owns-your-website-domain-hosting-access` | 17 Sep 2026 | **live** |
+| 4 | `what-to-have-ready-before-hiring-web-designer` | 17 Sep 2026 | **live** |
 | 5 | `facebook-page-vs-website-small-business` | Mon 28 Sep 2026 | ready |
 | 6 | `salon-barbershop-website-booking-massachusetts` | Mon 5 Oct 2026 | ready |
 | 7 | `ada-website-compliance-small-business-massachusetts` | Mon 12 Oct 2026 | ready |
 | 8 | `wix-squarespace-or-hand-built-website` | Mon 19 Oct 2026 | ready, paths unverified |
+| 3 | `small-business-website-cost-massachusetts` | — | **HOLD** — priced on the old model, needs a rewrite |
 
-All eight are clear of `[EXTERNAL LINK]` markers — set `published: true` and
-rebuild to release one.
+Posts 2 and 4 went out together on 17 September: 2 was overdue and 4 was a few
+days early, which closed the gap post 3 left when it was pulled. Dates are the
+day each actually went live, not the day it was scheduled for — the sitemap and
+the JSON-LD both read from this field, so backdating would put a false
+`lastmod` in front of Google.
+
+Post 3 keeps its place in the numbering so the reciprocal-link table below
+still lines up. Everything except post 3 is clear of `[EXTERNAL LINK]` markers —
+set `published: true` and rebuild to release one.
 
 Prices in the posts must track the site: one monthly fee starting at $97, no
 setup fee. One draft — `small-business-website-cost-massachusetts` — was

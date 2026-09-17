@@ -83,9 +83,11 @@ What is yours stays yours, always. Your domain is registered to your business an
 
 If owning the files outright matters to you, say so at the consultation. That's a different arrangement with a build fee attached, and it's a fair thing to want.
 
+[Who owns the site once it is built](https://jtbuildsco.com/blog/who-owns-your-website-domain-hosting-access) takes the question apart properly — the domain, the hosting, the files and your content are four separate things, and you can check where you stand with any provider in about ten minutes.
+
 ### What if I have nothing yet — no logo, no photos?
 
-Then we begin there. Identity and imagery can be part of the engagement.
+Then we begin there. Identity and imagery can be part of the engagement. [What to have ready before you hire anyone](https://jtbuildsco.com/blog/what-to-have-ready-before-hiring-web-designer) lists what genuinely helps, and what can wait.
 
 ### Will my site be accessible?
 
