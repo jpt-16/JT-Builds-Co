@@ -57,6 +57,6 @@ These terms are governed by the laws of the Commonwealth of Massachusetts.
 
 ## Contact
 
-Questions about these terms can be sent to [jptwohig16@gmail.com](mailto:jptwohig16@gmail.com).
+Questions about these terms can be sent to [jake@jtbuildsco.com](mailto:jake@jtbuildsco.com).
 
 This page is provided for general information about how we work and isn't a substitute for legal advice.

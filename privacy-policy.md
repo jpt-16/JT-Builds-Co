@@ -53,6 +53,6 @@ We may update this policy from time to time as our practices change. The date at
 
 ## Contact
 
-Questions about this policy or your information can be sent to [jptwohig16@gmail.com](mailto:jptwohig16@gmail.com).
+Questions about this policy or your information can be sent to [jake@jtbuildsco.com](mailto:jake@jtbuildsco.com).
 
 This page is provided for general information about how we handle data and isn't a substitute for legal advice.

@@ -59,7 +59,7 @@ const FACTS = [
   ['Ownership', 'This is a subscription to a website, not a purchase of one. The client keeps their own words, photographs, logo and domain name throughout and can take them anywhere. The website itself — the design and the code — remains the property of JT Builds Co. and is licensed to the client for as long as the fee is paid. Cancelling ends the subscription and the site goes offline; the files are not transferred, because no separate build fee was ever charged.'],
   ['Cancellation', 'Month to month, cancel any time with reasonable notice. No minimum term.'],
   ['Accessibility', 'Sites are built and tested to WCAG 2.1 AA.'],
-  ['Contact', 'jptwohig16@gmail.com · (781) 248-9834 · consultation form at ' + SITE + '/contact'],
+  ['Contact', 'jake@jtbuildsco.com · (781) 248-9834 · consultation form at ' + SITE + '/contact'],
 ];
 
 const SERVICES = [
