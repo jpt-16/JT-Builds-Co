@@ -59,6 +59,29 @@ In the Vercel dashboard, under Project → Settings → Environment Variables, a
 | `TWILIO_FROM_NUMBER` | If not using a Messaging Service | Your verified toll-free number, e.g. `+18005551234`. |
 | `GOOGLE_REVIEW_URL` | Recommended default | Falls back to whatever's typed into the dashboard's Review URL field if unset. |
 | `BUSINESS_NAME` | Recommended default | Falls back to whatever's typed into the dashboard's Business Name field if unset. |
+| `RESEND_API_KEY` | Yes, for the contact form | From the Resend dashboard. Without it the form refuses politely and tells the visitor to email or call instead. |
+| `CONTACT_TO` | Optional | Where consultation requests land. Defaults to `jake@jtbuildsco.com`. |
+| `CONTACT_FROM` | Optional | The From address, which must be on a domain verified in Resend. Defaults to `JT Builds Co. <forms@jtbuildsco.com>`. |
+
+### Resend, before the contact form works
+
+The form at `/contact` posts to `api/send-consultation.js`, which hands the
+message to Resend. Two things have to be in place, in this order:
+
+1. **Verify the domain in Resend.** Add `jtbuildsco.com` under Domains and copy
+   the DKIM and SPF records it gives you into your DNS. Until the domain shows
+   as verified, Resend will not send as `@jtbuildsco.com`.
+2. **Set `RESEND_API_KEY`** in Vercel, for Production *and* Preview.
+
+Do both **before** deploying the form. There is no dry run here and that is
+deliberate: a contact form that shows a thank-you page while quietly dropping
+the enquiry is worse than one that admits it is down. With no key set, the form
+returns a page telling the visitor to email or call instead, so nobody is left
+thinking they got through when they did not.
+
+`CONTACT_FROM` has to be a domain Resend has verified. It is not the address
+replies go to — the function sets `reply_to` to whatever the enquirer typed, so
+hitting reply in your inbox answers them directly.
 
 **Set every variable for both the Production and Preview environments.** Vercel scopes
 environment variables per environment; if you only check "Production" when adding the

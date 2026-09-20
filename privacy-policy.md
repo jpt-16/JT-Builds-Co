@@ -21,7 +21,7 @@ We use this information to respond to your inquiry, discuss your project, and, i
 
 ## Third-Party Services
 
-The consultation form is processed by [FormSubmit](https://formsubmit.co/), a third-party form-delivery service and data processor that relays your submission to us by email — they receive what you type into the form, and act only on our behalf in delivering it. We also load typefaces from Google Fonts, which may receive your device's IP address as part of delivering font files, and send text messages on clients' behalf through Twilio, described below. We don't use analytics, tracking pixels, or advertising cookies on this site.
+The consultation form posts to this site and is emailed to us through [Resend](https://resend.com/), an email delivery provider acting as our data processor — they transmit the message on our behalf and do not use it for anything else. Nothing you type is stored on this website. We also load typefaces from Google Fonts, which may receive your device's IP address as part of delivering font files, and send text messages on clients' behalf through Twilio, described below. We don't use analytics, tracking pixels, or advertising cookies on this site.
 
 ## Website Health Report Tool
 

@@ -143,7 +143,15 @@ Fonts load from Google Fonts (Inter, weights 400/500).
 
 ## Contact form
 
-The consultation form posts to [FormSubmit](https://formsubmit.co/) addressed to the business email — no backend needed. The first submission after deployment triggers a one-time activation email from FormSubmit; confirm it and all later submissions arrive in the inbox. To switch providers (Formspree, Netlify Forms, a custom endpoint), change the form's `action` attribute in `contact.html`.
+The consultation form posts natively to `api/send-consultation.js`, which emails it on through [Resend](https://resend.com/). No JavaScript is involved: the form is a plain `method="POST"`, and the function answers with a 303 to `/thank-you`, so it works with scripting turned off like the rest of the site.
+
+The function needs `RESEND_API_KEY` set and the domain verified in Resend — see [SETUP.md](SETUP.md). Without the key it does not pretend to succeed; it returns a page telling the visitor to email or call instead.
+
+It carries the honeypot field the old FormSubmit setup used (`_honey`: filled in only by bots, answered with the same 303 as a success so they learn nothing), caps every field length, and rate-limits by IP. The rate limit is best-effort — serverless instances are ephemeral, so it throttles a flood against one warm instance rather than the whole site.
+
+`reply_to` is set to the enquirer's address, so replying from the inbox answers them directly rather than the `CONTACT_FROM` mailbox.
+
+To switch providers, replace the `fetch` call in `api/send-consultation.js`; the form and the thank-you page stay as they are.
 
 ## Review request tool
 
