@@ -1,6 +1,6 @@
 # Who Owns Your Website? Domain, Hosting and Access Explained
 
-> Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and exactly what to do if a web designer will not give you access.
+> Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and what to do if a designer will not give you access.
 
 Source: https://jtbuildsco.com/blog/who-owns-your-website-domain-hosting-access
 Part of: https://jtbuildsco.com/llms.txt
@@ -11,7 +11,7 @@ Part of: https://jtbuildsco.com/llms.txt
 
 17 September 2026 · 8 min read
 
-Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and exactly what to do if a web designer will not give you access.
+Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and what to do if a designer will not give you access.
 
 The worst phone call in this trade is the one that starts "my old web guy has stopped answering, and I can't get into my own site."
 

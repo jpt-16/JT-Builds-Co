@@ -1,6 +1,6 @@
 # How to Set Up a Google Business Profile That Actually Ranks
 
-> A step-by-step Google Business Profile setup guide for Massachusetts trades, salons and shops: categories, service areas, photos, reviews and suspension traps.
+> Step-by-step Google Business Profile setup guide for Massachusetts contractors: categories, service areas, photos, reviews and suspension traps.
 
 Source: https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts
 Part of: https://jtbuildsco.com/llms.txt
@@ -11,7 +11,7 @@ Part of: https://jtbuildsco.com/llms.txt
 
 31 August 2026 · 7 min read
 
-A step-by-step Google Business Profile setup guide for Massachusetts trades, salons and shops: categories, service areas, photos, reviews and suspension traps.
+Step-by-step Google Business Profile setup guide for Massachusetts contractors: categories, service areas, photos, reviews and suspension traps.
 
 A Google Business Profile is free, takes about an hour to set up properly, and decides whether anyone within ten miles of you ever finds your business. For most Massachusetts trades, salons and shops it does more work than the website does. That is not an argument against websites. It is an argument for doing this first.
 

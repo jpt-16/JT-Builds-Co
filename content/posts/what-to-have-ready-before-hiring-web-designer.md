@@ -1,6 +1,9 @@
 ---
 title: "What to Have Ready Before You Hire a Web Designer"
-description: "A practical checklist of what to have ready before hiring a web designer: content, photos, domain access, logins, and the questions worth asking first."
+# Search-results title only. The H1 above stays as written; this keeps the
+# tag inside Google's ~60-char cut once the brand suffix is appended.
+seoTitle: "What to Have Ready for a Web Designer"
+description: "A checklist of what to have ready before hiring a web designer: content, photos, domain access, logins, and the questions worth asking first."
 slug: "what-to-have-ready-before-hiring-web-designer"
 keywords:
   - what to have ready before hiring a web designer

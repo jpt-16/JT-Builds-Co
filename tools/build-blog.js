@@ -290,7 +290,9 @@ function postPage(post, chrome) {
   const canonical = `${SITE}/blog/${post.slug}`;
   return [
     HEAD({
-      title: post.title + ' — JT Builds Co.',
+      // seoTitle, when set, is the search-results title only; the H1 and the
+      // index listing keep post.title, which is written to be read not queried
+      title: (post.seoTitle || post.title) + ' — JT Builds Co.',
       description: post.description,
       canonical,
       jsonld: post.jsonld,
@@ -343,7 +345,7 @@ function indexPage(posts, chrome) {
   return [
     HEAD({
       title: 'Guides — JT Builds Co.',
-      description: 'Plain-English guides for small business owners on websites, costs, Google Business Profile, accessibility and ownership, from a one-person studio in Foxboro, Massachusetts.',
+      description: 'Plain-English guides for small business owners: what a website costs, who owns it, Google Business Profile, and accessibility.',
       canonical: `${SITE}/blog`,
       jsonld: null,
       keywords: null,
@@ -450,6 +452,7 @@ function loadPost(file) {
     file: name,
     slug: data.slug,
     title: data.title,
+    seoTitle: data.seoTitle || '',
     description: data.description,
     keywords: data.keywords || [],
     schema: data.schema || '',

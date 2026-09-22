@@ -1,6 +1,6 @@
 # What to Have Ready Before You Hire a Web Designer
 
-> A practical checklist of what to have ready before hiring a web designer: content, photos, domain access, logins, and the questions worth asking first.
+> A checklist of what to have ready before hiring a web designer: content, photos, domain access, logins, and the questions worth asking first.
 
 Source: https://jtbuildsco.com/blog/what-to-have-ready-before-hiring-web-designer
 Part of: https://jtbuildsco.com/llms.txt
@@ -11,7 +11,7 @@ Part of: https://jtbuildsco.com/llms.txt
 
 17 September 2026 · 6 min read
 
-A practical checklist of what to have ready before hiring a web designer: content, photos, domain access, logins, and the questions worth asking first.
+A checklist of what to have ready before hiring a web designer: content, photos, domain access, logins, and the questions worth asking first.
 
 Nearly every website project that runs late runs late for the same reason. Not the design. Not the code. The content.
 

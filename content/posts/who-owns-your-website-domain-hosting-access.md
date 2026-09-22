@@ -1,6 +1,9 @@
 ---
 title: "Who Owns Your Website? Domain, Hosting and Access Explained"
-description: "Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and exactly what to do if a web designer will not give you access."
+# Search-results title only. The H1 above stays as written; this keeps the
+# tag inside Google's ~60-char cut once the brand suffix is appended.
+seoTitle: "Who Owns Your Website, Domain and Hosting?"
+description: "Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and what to do if a designer will not give you access."
 slug: "who-owns-your-website-domain-hosting-access"
 keywords:
   - who owns my website

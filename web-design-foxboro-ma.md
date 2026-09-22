@@ -1,6 +1,6 @@
 # Web Design in Foxboro, Massachusetts
 
-> Web design in Foxboro, Massachusetts — custom websites for plumbers, landscapers, detailers and any other small business, built by a one-person studio in town. Serving Norfolk and Bristol counties.
+> Custom websites for Foxborough small businesses — plumbers, landscapers and detailers. A one-person studio serving Norfolk and Bristol counties.
 
 Source: https://jtbuildsco.com/web-design-foxboro-ma
 Part of: https://jtbuildsco.com/llms.txt

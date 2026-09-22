@@ -1,6 +1,6 @@
 # Guides
 
-> Plain-English guides for small business owners on websites, costs, Google Business Profile, accessibility and ownership, from a one-person studio in Foxboro, Massachusetts.
+> Plain-English guides for small business owners: what a website costs, who owns it, Google Business Profile, and accessibility.
 
 Source: https://jtbuildsco.com/blog
 Part of: https://jtbuildsco.com/llms.txt
@@ -15,7 +15,7 @@ Straight answers to the questions small business owners actually ask before they
 
 ## [What to Have Ready Before You Hire a Web Designer](https://jtbuildsco.com/blog/what-to-have-ready-before-hiring-web-designer)
 
-A practical checklist of what to have ready before hiring a web designer: content, photos, domain access, logins, and the questions worth asking first.
+A checklist of what to have ready before hiring a web designer: content, photos, domain access, logins, and the questions worth asking first.
 
 [READ THE GUIDE →](https://jtbuildsco.com/blog/what-to-have-ready-before-hiring-web-designer)
 
@@ -23,7 +23,7 @@ A practical checklist of what to have ready before hiring a web designer: conten
 
 ## [Who Owns Your Website? Domain, Hosting and Access Explained](https://jtbuildsco.com/blog/who-owns-your-website-domain-hosting-access)
 
-Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and exactly what to do if a web designer will not give you access.
+Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and what to do if a designer will not give you access.
 
 [READ THE GUIDE →](https://jtbuildsco.com/blog/who-owns-your-website-domain-hosting-access)
 
@@ -31,7 +31,7 @@ Who really owns your website, domain and hosting, how to check it yourself in te
 
 ## [How to Set Up a Google Business Profile That Actually Ranks](https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts)
 
-A step-by-step Google Business Profile setup guide for Massachusetts trades, salons and shops: categories, service areas, photos, reviews and suspension traps.
+Step-by-step Google Business Profile setup guide for Massachusetts contractors: categories, service areas, photos, reviews and suspension traps.
 
 [READ THE GUIDE →](https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts)
 

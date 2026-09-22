@@ -443,7 +443,7 @@ A short conversation is usually enough to see exactly where you're losing ground
 
 ---
 
-# Web Design in Foxboro, MA
+# Web Design in Foxborough, MA
 
 Source: https://jtbuildsco.com/web-design-foxboro-ma
 
@@ -542,7 +542,7 @@ Straight answers to the questions small business owners actually ask before they
 
 ## [What to Have Ready Before You Hire a Web Designer](https://jtbuildsco.com/blog/what-to-have-ready-before-hiring-web-designer)
 
-A practical checklist of what to have ready before hiring a web designer: content, photos, domain access, logins, and the questions worth asking first.
+A checklist of what to have ready before hiring a web designer: content, photos, domain access, logins, and the questions worth asking first.
 
 [READ THE GUIDE →](https://jtbuildsco.com/blog/what-to-have-ready-before-hiring-web-designer)
 
@@ -550,7 +550,7 @@ A practical checklist of what to have ready before hiring a web designer: conten
 
 ## [Who Owns Your Website? Domain, Hosting and Access Explained](https://jtbuildsco.com/blog/who-owns-your-website-domain-hosting-access)
 
-Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and exactly what to do if a web designer will not give you access.
+Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and what to do if a designer will not give you access.
 
 [READ THE GUIDE →](https://jtbuildsco.com/blog/who-owns-your-website-domain-hosting-access)
 
@@ -558,7 +558,7 @@ Who really owns your website, domain and hosting, how to check it yourself in te
 
 ## [How to Set Up a Google Business Profile That Actually Ranks](https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts)
 
-A step-by-step Google Business Profile setup guide for Massachusetts trades, salons and shops: categories, service areas, photos, reviews and suspension traps.
+Step-by-step Google Business Profile setup guide for Massachusetts contractors: categories, service areas, photos, reviews and suspension traps.
 
 [READ THE GUIDE →](https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts)
 
@@ -724,7 +724,7 @@ This page is provided for general information about how we handle data and isn't
 
 ---
 
-# How to Set Up a Google Business Profile That Actually Ranks
+# Google Business Profile for MA Contractors
 
 Source: https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts
 
@@ -732,7 +732,7 @@ Source: https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts
 
 31 August 2026 · 7 min read
 
-A step-by-step Google Business Profile setup guide for Massachusetts trades, salons and shops: categories, service areas, photos, reviews and suspension traps.
+Step-by-step Google Business Profile setup guide for Massachusetts contractors: categories, service areas, photos, reviews and suspension traps.
 
 A Google Business Profile is free, takes about an hour to set up properly, and decides whether anyone within ten miles of you ever finds your business. For most Massachusetts trades, salons and shops it does more work than the website does. That is not an argument against websites. It is an argument for doing this first.
 
@@ -848,7 +848,7 @@ Tell me what your business needs and I'll reply personally within one business d
 
 ---
 
-# What to Have Ready Before You Hire a Web Designer
+# What to Have Ready for a Web Designer
 
 Source: https://jtbuildsco.com/blog/what-to-have-ready-before-hiring-web-designer
 
@@ -856,7 +856,7 @@ Source: https://jtbuildsco.com/blog/what-to-have-ready-before-hiring-web-designe
 
 17 September 2026 · 6 min read
 
-A practical checklist of what to have ready before hiring a web designer: content, photos, domain access, logins, and the questions worth asking first.
+A checklist of what to have ready before hiring a web designer: content, photos, domain access, logins, and the questions worth asking first.
 
 Nearly every website project that runs late runs late for the same reason. Not the design. Not the code. The content.
 
@@ -977,7 +977,7 @@ Tell me what your business needs and I'll reply personally within one business d
 
 ---
 
-# Who Owns Your Website? Domain, Hosting and Access Explained
+# Who Owns Your Website, Domain and Hosting?
 
 Source: https://jtbuildsco.com/blog/who-owns-your-website-domain-hosting-access
 
@@ -985,7 +985,7 @@ Source: https://jtbuildsco.com/blog/who-owns-your-website-domain-hosting-access
 
 17 September 2026 · 8 min read
 
-Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and exactly what to do if a web designer will not give you access.
+Who really owns your website, domain and hosting, how to check it yourself in ten minutes, and what to do if a designer will not give you access.
 
 The worst phone call in this trade is the one that starts "my old web guy has stopped answering, and I can't get into my own site."
 

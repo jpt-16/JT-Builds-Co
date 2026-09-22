@@ -1,6 +1,6 @@
 # Pricing
 
-> One monthly fee from $97 covers building your small business website, hosting it, and keeping it updated. No setup fee. What it covers, and answers to common questions.
+> One monthly fee from $97 covers the build, the hosting and the updates. No setup fee, no contract. See exactly what's included.
 
 Source: https://jtbuildsco.com/pricing
 Part of: https://jtbuildsco.com/llms.txt

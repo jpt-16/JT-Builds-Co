@@ -1,6 +1,9 @@
 ---
 title: "How to Set Up a Google Business Profile That Actually Ranks"
-description: "A step-by-step Google Business Profile setup guide for Massachusetts trades, salons and shops: categories, service areas, photos, reviews and suspension traps."
+# Search-results title only. The H1 above stays as written; this one carries the
+# query people actually type, and keeps the tag inside Google's ~60-char cut.
+seoTitle: "Google Business Profile for MA Contractors"
+description: "Step-by-step Google Business Profile setup guide for Massachusetts contractors: categories, service areas, photos, reviews and suspension traps."
 slug: "google-business-profile-setup-massachusetts"
 keywords:
   - google business profile setup massachusetts
