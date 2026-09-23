@@ -47,7 +47,7 @@ Appointments taken around the clock, straight from your site — no phone tag, n
 
 ### Local Search
 
-Google Business Profile setup and local SEO, so your town finds you first when they search for what you do. [How a Google Business Profile is set up](https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts).
+Google Business Profile and local SEO, set up so your town finds you first. Then it keeps running: each month I read your site's real Search Console data — the queries people actually typed, the clicks they turned into — and rank the fixes by what would move the most. Made, then measured. Not a one-time audit. [How a Google Business Profile is set up](https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts).
 
 ### AI & Custom Solutions
 

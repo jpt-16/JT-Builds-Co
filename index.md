@@ -37,7 +37,7 @@ Appointments taken around the clock, without a single phone call.
 
 ### Local Search
 
-Google Business Profile and local SEO, so your town finds you first.
+Google Business Profile and local SEO, so your town finds you first. Tracked, not set and forgotten.
 
 [SEE ALL SERVICES →](https://jtbuildsco.com/services)
 

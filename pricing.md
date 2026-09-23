@@ -69,6 +69,14 @@ Yes to both. A contact form that reaches you directly is standard; online bookin
 
 The groundwork is: a fast, properly structured site that search engines can read, which is the part most small-business sites get wrong. Going further — Google Business Profile setup and local search work, so your town finds you first — is the Local Search service, agreed in your consultation.
 
+### Is SEO a one-time thing or ongoing?
+
+Both, and the second half is the one that matters. The groundwork is one-time: a fast, properly structured site, and a Google Business Profile set up correctly. After that it moves — competitors change, Google reshuffles, and the words people search drift. Local Search is the ongoing half: checked against real search data every month, not left alone until something breaks.
+
+### How do I know if the SEO work is actually working?
+
+Because you see the same numbers I do. Your site is connected to Google Search Console, which reports what people actually typed, how often you came up, and how often they clicked. Recommendations come from that data, not from a hunch about keywords — and once a change is made, the same figures say whether it moved. When something doesn't work, that shows up too.
+
 ### Do you set up text and call automation?
 
 Yes, as an add-on — missed-call text-back and automated review requests, added when a business has a use for them rather than fitted to every site by default. If it's part of your project, it's built alongside the rest of the site.

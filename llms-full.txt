@@ -45,7 +45,7 @@ Appointments taken around the clock, without a single phone call.
 
 ### Local Search
 
-Google Business Profile and local SEO, so your town finds you first.
+Google Business Profile and local SEO, so your town finds you first. Tracked, not set and forgotten.
 
 [SEE ALL SERVICES →](https://jtbuildsco.com/services)
 
@@ -191,7 +191,7 @@ Appointments taken around the clock, straight from your site — no phone tag, n
 
 ### Local Search
 
-Google Business Profile setup and local SEO, so your town finds you first when they search for what you do. [How a Google Business Profile is set up](https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts).
+Google Business Profile and local SEO, set up so your town finds you first. Then it keeps running: each month I read your site's real Search Console data — the queries people actually typed, the clicks they turned into — and rank the fixes by what would move the most. Made, then measured. Not a one-time audit. [How a Google Business Profile is set up](https://jtbuildsco.com/blog/google-business-profile-setup-massachusetts).
 
 ### AI & Custom Solutions
 
@@ -276,6 +276,14 @@ Yes to both. A contact form that reaches you directly is standard; online bookin
 ### Is SEO included?
 
 The groundwork is: a fast, properly structured site that search engines can read, which is the part most small-business sites get wrong. Going further — Google Business Profile setup and local search work, so your town finds you first — is the Local Search service, agreed in your consultation.
+
+### Is SEO a one-time thing or ongoing?
+
+Both, and the second half is the one that matters. The groundwork is one-time: a fast, properly structured site, and a Google Business Profile set up correctly. After that it moves — competitors change, Google reshuffles, and the words people search drift. Local Search is the ongoing half: checked against real search data every month, not left alone until something breaks.
+
+### How do I know if the SEO work is actually working?
+
+Because you see the same numbers I do. Your site is connected to Google Search Console, which reports what people actually typed, how often you came up, and how often they clicked. Recommendations come from that data, not from a hunch about keywords — and once a change is made, the same figures say whether it moved. When something doesn't work, that shows up too.
 
 ### Do you set up text and call automation?
 
