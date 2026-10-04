@@ -71,16 +71,6 @@ A free tool that analyses any business's website and returns a plain-English rep
 
 [TRY IT FREE →](https://report.jtbuildsco.com/)
 
-`STUDIO PROJECT` · `WEB APP`
-
-### EVNLY
-
-WEB APP · NO ACCOUNTS
-
-A cost-splitting app for trips, dinners and shared houses. Start a split, send the link, and everyone taps their name to join — no accounts, no emails, no phone numbers. Costs split evenly, by exact amounts or by shares, with a running tally of who owes whom. Splits archive themselves two weeks after the last expense.
-
-[TRY IT →](https://evnly.vercel.app)
-
 ## Your business could be next.
 
 Tell me what you need and I'll show you exactly what it would look like.
