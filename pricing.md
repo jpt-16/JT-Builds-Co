@@ -65,6 +65,10 @@ Send them over. Minor updates — wording, photos, hours, prices — are part of
 
 Yes to both. A contact form that reaches you directly is standard; online booking is its own service, added where it fits how the business actually runs.
 
+### Can you build an online store?
+
+Yes. E-commerce is part of the AI & Custom Solutions add-on — products, a cart and a checkout, sitting alongside the rest of your site. Stores vary more than anything else here: ten products is a different job from five hundred, and shipping and stock change it again. So it's scoped and quoted in the consultation rather than folded into the monthly fee. Tell me what you sell and roughly how much of it.
+
 ### Is SEO included?
 
 The groundwork is: a fast, properly structured site that search engines can read, which is the part most small-business sites get wrong. Going further — Google Business Profile setup and local search work, so your town finds you first — is the Local Search service, agreed in your consultation.
@@ -92,6 +96,10 @@ What is yours stays yours, always. Your domain is registered to your business an
 If owning the files outright matters to you, say so at the consultation. That's a different arrangement with a build fee attached, and it's a fair thing to want.
 
 [Who owns the site once it is built](https://jtbuildsco.com/blog/who-owns-your-website-domain-hosting-access) takes the question apart properly — the domain, the hosting, the files and your content are four separate things, and you can check where you stand with any provider in about ten minutes.
+
+### What happens if I want to part ways?
+
+Tell me, with reasonable notice, and it ends at the close of the period you've paid for. No minimum term, no contract to unpick. The site comes offline then — it was a subscription, so the files aren't handed over — but everything that's yours leaves with you. Your domain stays registered to your business and points wherever you tell it. Your words, photographs and logo come back to you on request, ready for whoever builds next. Your Google Business Profile was yours throughout. Nothing of yours gets held back to keep you.
 
 ### What if I have nothing yet — no logo, no photos?
 
